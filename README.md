@@ -5,6 +5,7 @@
 ### Add-ons
 - CouchPotato
 - Headphones
+- Jackett
 - NZBGet
 - SABnzbd
 - SickRage
