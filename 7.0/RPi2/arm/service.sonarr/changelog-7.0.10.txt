@@ -1,0 +1,30 @@
+10:
+- Update to 2.0.0.4472
+
+9:
+- Update to version 2.0.0.4427
+
+8:
+- Rebuild
+
+7:
+- Update to version 2.0.0.4409
+
+6:
+- Remove add-on repository
+
+5:
+- Update to version 2.0.0.4389
+
+4:
+- Update to version 2.0.0.4374
+- Edit disclaimer
+
+3:
+- Move data to add-on home
+
+2:
+- Update to version 2.0.0.4370
+
+1:
+- Initial add-on

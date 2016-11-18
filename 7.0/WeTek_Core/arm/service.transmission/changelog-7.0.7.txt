@@ -1,0 +1,21 @@
+7:
+- Re-enable spaces in settings, in particular in incomplete path
+
+6:
+- Provide for custom initialisation script
+
+5:
+- Remove add-on repository
+
+4:
+- Optional incomplete-dir
+
+3:
+- Disable lightweight
+- Rework settings
+
+2:
+- Edit disclaimer
+
+1:
+- Initial add-on

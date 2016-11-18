@@ -1,0 +1,20 @@
+7:
+- Remove strip_lto
+
+6:
+- Add and uodate python dependencies
+
+5:
+- Update to 0.5.18
+
+4:
+- Update to 0.5.17
+
+3:
+- Remove add-on repository
+
+2:
+- Add PyOpenSSL
+
+1:
+- Initial add-on

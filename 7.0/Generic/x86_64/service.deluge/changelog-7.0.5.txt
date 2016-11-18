@@ -1,0 +1,15 @@
+5:
+- Enable start daemon button
+- Wait for DNS
+
+4:
+- Remove strip_lto
+
+3:
+- Update python dependencies
+
+2:
+- Rebuild
+
+1:
+- Initial add-on

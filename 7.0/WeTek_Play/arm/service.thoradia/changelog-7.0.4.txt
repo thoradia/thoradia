@@ -1,0 +1,11 @@
+4:
+- Mention Radarr
+
+3:
+- Mention Deluge
+
+2:
+- Fix datadir
+
+1:
+- Initial add-on

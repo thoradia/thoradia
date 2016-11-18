@@ -1,0 +1,26 @@
+9:
+- Update to 0.7.890
+
+8:
+- Update to 0.7.860
+
+7:
+- Update to 0.7.839
+
+6:
+- Update to 0.7.825
+
+5:
+- Update to 0.7.741
+
+4:
+- Update to 0.7.639
+
+3:
+- Remove add-on repository
+
+2:
+- Correct descriptions
+
+1:
+- Initial add-on
