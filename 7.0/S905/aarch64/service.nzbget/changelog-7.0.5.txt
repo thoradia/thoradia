@@ -1,0 +1,15 @@
+5:
+- Remove add-on repository
+
+4:
+- Add p7zip
+- Set MainDir to add-on home
+
+3:
+- Add unrar
+
+2:
+- Edit disclaimer
+
+1:
+- Initial add-on

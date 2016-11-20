@@ -1,0 +1,15 @@
+5:
+- Remove add-on repository
+
+4:
+- Optional incomplete-dir
+
+3:
+- Disable lightweight
+- Rework settings
+
+2:
+- Edit disclaimer
+
+1:
+- Initial add-on
