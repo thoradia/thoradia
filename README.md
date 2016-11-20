@@ -13,9 +13,11 @@
 - Transmission
 
 ### Installation
-Add-ons are available [here](https://github.com/thoradia/thoradia "add-ons").  
-Download and install any add-on corresponding to your release of LibreELEC.  
-Each add-on behaves as an add-on repository, from which further add-ons may be installed.
+1. Install the [add-on repository](https://raw.githubusercontent.com/thoradia/thoradia/master/service.thoradia.zip "add-on repository")
+2. Restart Kodi
+3. Install add-ons from the Thoradia add-on repository
+
+Add-ons are also available [here](https://github.com/thoradia/thoradia "add-ons").  
 
 ### Feedback
 Provide feedback [here](https://github.com/thoradia/LibreELEC.tv/issues "issues").
