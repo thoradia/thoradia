@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+
+<addon id="service.deluge"
+       name="Deluge"
+       version="8.1.5"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>deluge (1.3.13) is a lightweight, free software, cross-platform BitTorrent client</summary>
+    <description>
+
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+5:
+- Enable start daemon button
+- Wait for DNS
+
+4:
+- Remove strip_lto
+
+3:
+- Update python dependencies
+
+2:
+- Rebuild
+
+1:
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.sonarr"
+       name="Sonarr"
+       version="8.1.10"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Sonarr: a PVR for Usenet and BitTorrent users</summary>
+    <description>
+Sonarr (2.0.0.4472) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+10:
+- Update to 2.0.0.4472
+
+9:
+- Update to version 2.0.0.4427
+
+8:
+- Rebuild
+
+7:
+- Update to version 2.0.0.4409
+
+6:
+- Remove add-on repository
+
+5:
+- Update to version 2.0.0.4389
+
+4:
+- Update to version 2.0.0.4374
+- Edit disclaimer
+
+3:
+- Move data to add-on home
+
+2:
+- Update to version 2.0.0.4370
+
+1:
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.jackett"
+       name="Jackett"
+       version="8.1.9"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Jackett: proxy to tracker sites</summary>
+    <description>
+Jackett (0.7.890) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+9:
+- Update to 0.7.890
+
+8:
+- Update to 0.7.860
+
+7:
+- Update to 0.7.839
+
+6:
+- Update to 0.7.825
+
+5:
+- Update to 0.7.741
+
+4:
+- Update to 0.7.639
+
+3:
+- Remove add-on repository
+
+2:
+- Correct descriptions
+
+1:
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.sickrage"
+       name="SickRage"
+       version="8.1.9"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>SickRage: automatic video library manager for TV shows</summary>
+    <description>
+SickRage (2017.01.10-1) watches for new episodes of your favorite shows, and when they are posted it does its magic
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+9:
+- Update to 2017.01.10-1
+
+8:
+- Remove strip_lto
+
+7:
+- Reinstate *.pyo files, required for LXML and SSL
+
+6:
+- Remove *.pyo files to prevent segfaults on aarch64
+
+5:
+- Update python dependencies
+
+4:
+- Update to 2016.12.20-2
+
+3:
+- Rebuild
+
+2:
+- Remove add-on repository
+
+1:
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.nzbget"
+       name="NZBGet"
+       version="8.1.6"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>NZBGet: efficient Usenet downloader</summary>
+    <description>
+NZBGet (17.1) is an efficient Usenet downloader
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+6:
+- Rebuild
+
+5:
+- Remove add-on repository
+
+4:
+- Add p7zip
+- Set MainDir to add-on home
+
+3:
+- Add unrar
+
+2:
+- Edit disclaimer
+
+1:
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.thoradia"
+       name="Thoradia"
+       version="8.1.4"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.repository">
+    <datadir zip="true">https://raw.githubusercontent.com/thoradia/thoradia/master/8.1/RPi2/arm/</datadir>
+    <info>https://raw.githubusercontent.com/thoradia/thoradia/master/8.1/RPi2/arm/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/thoradia/thoradia/master/8.1/RPi2/arm/addons.xml.md5</checksum>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thoradia: add-on repository</summary>
+    <description>
+Thoradia (4) add-on repository, provides CouchPotato, Deluge, Headphones, Jackett, NZBGet, Radarr, SABnzbd, SickRage, Sonarr and Transmission.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+4:
+- Mention Radarr
+
+3:
+- Mention Deluge
+
+2:
+- Fix datadir
+
+1:
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.headphones"
+       name="Headphones"
+       version="8.1.7"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Headphones: automated music downloader for NZB and Torrent</summary>
+    <description>
+Headphones (0.5.18) is an automated music downloader for NZB and Torrent. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+7:
+- Remove strip_lto
+
+6:
+- Add and uodate python dependencies
+
+5:
+- Update to 0.5.18
+
+4:
+- Update to 0.5.17
+
+3:
+- Remove add-on repository
+
+2:
+- Add PyOpenSSL
+
+1:
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.couchpotato"
+       name="CouchPotato"
+       version="8.1.9"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>CouchPotato: automatic movie downloading via Usenet and BitTorrent</summary>
+    <description>
+CouchPotato (b538f9a) downloads movies automatically, easily and in the best quality as soon as they are available
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+9:
+- Remove strip_lto
+
+8:
+- Reinstate *.pyo files, required for LXML and SSL
+
+7:
+- Remove *.pyo files to prevent segfaults on aarch64
+
+6:
+- Update python dependencies
+
+5:
+- Update to b538f9a
+
+4:
+- Rebuild
+
+3:
+- Update to 405779047035723bd015fdd51b19379884f53b36
+
+2:
+- Remove add-on repository
+
+1:
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.transmission"
+       name="Transmission"
+       version="8.1.7"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Transmission: a fast, easy and free BitTorrent client</summary>
+    <description>
+Transmission (2.92) is a fast, easy and free BitTorrent client
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+7:
+- Re-enable spaces in settings, in particular in incomplete path
+
+6:
+- Provide for custom initialisation script
+
+5:
+- Remove add-on repository
+
+4:
+- Optional incomplete-dir
+
+3:
+- Disable lightweight
+- Rework settings
+
+2:
+- Edit disclaimer
+
+1:
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.radarr"
+       name="Radarr"
+       version="8.1.1"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Radarr: a fork of Sonarr to work with movies à la CouchPotato</summary>
+    <description>
+Radarr (0.2.0.152) is a fork of Sonarr to work with movies à la CouchPotato.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+1:
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.sabnzbd"
+       name="SABnzbd"
+       version="8.1.6"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>SABnzbd: free and easy binary newsreader</summary>
+    <description>
+SABnzbd (1.1.1) is a program to download binary files from Usenet servers.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+6:
+- Remove strip_lto
+
+5:
+- Update python dependencies
+
+4:
+- Rebuild
+
+3:
+- Update to 1.1.1
+
+2:
+- Remove add-on repository
+
+1:
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+
+</addons>

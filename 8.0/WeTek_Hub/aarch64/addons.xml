@@ -3,7 +3,7 @@
 
 <addon id="service.sonarr"
        name="Sonarr"
-       version="8.0.6"
+       version="8.0.7"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -17,13 +17,16 @@
   <extension point="xbmc.addon.metadata">
     <summary>Sonarr: a PVR for Usenet and BitTorrent users</summary>
     <description>
-Sonarr (2.0.0.4389) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+Sonarr (2.0.0.4409) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+7:
+- Update to version 2.0.0.4409
+
 6:
 - Remove add-on repository
 
@@ -52,7 +55,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.jackett"
        name="Jackett"
-       version="8.0.3"
+       version="8.0.4"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -66,13 +69,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Jackett: proxy to tracker sites</summary>
     <description>
-Jackett (0.7.570) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
+Jackett (0.7.639) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+4:
+- Update to 0.7.639
+
 3:
 - Remove add-on repository
 
@@ -211,7 +217,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.headphones"
        name="Headphones"
-       version="8.0.3"
+       version="8.0.4"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -224,13 +230,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Headphones: automated music downloader for NZB and Torrent</summary>
     <description>
-Headphones (0.5.16) is an automated music downloader for NZB and Torrent. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole.
+Headphones (0.5.17) is an automated music downloader for NZB and Torrent. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+4:
+- Update to 0.5.17
+
 3:
 - Remove add-on repository
 
@@ -249,7 +258,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.couchpotato"
        name="CouchPotato"
-       version="8.0.2"
+       version="8.0.3"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -262,13 +271,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>CouchPotato: automatic movie downloading via Usenet and BitTorrent</summary>
     <description>
-CouchPotato (4a0999d) downloads movies automatically, easily and in the best quality as soon as they are available
+CouchPotato (405779047035723bd015fdd51b19379884f53b36) downloads movies automatically, easily and in the best quality as soon as they are available
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+3:
+- Update to 405779047035723bd015fdd51b19379884f53b36
+
 2:
 - Remove add-on repository
 
@@ -284,7 +296,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.transmission"
        name="Transmission"
-       version="8.0.5"
+       version="8.0.6"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -304,6 +316,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+6:
+- Provide for custom initialisation script
+
 5:
 - Remove add-on repository
 
@@ -329,7 +344,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sabnzbd"
        name="SABnzbd"
-       version="8.0.2"
+       version="8.0.3"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -342,13 +357,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>SABnzbd: free and easy binary newsreader</summary>
     <description>
-SABnzbd (1.1.0) is a program to download binary files from Usenet servers.
+SABnzbd (1.1.1) is a program to download binary files from Usenet servers.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+3:
+- Update to 1.1.1
+
 2:
 - Remove add-on repository
 
