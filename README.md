@@ -4,6 +4,7 @@
 
 ### Add-ons
 - CouchPotato
+- Deluge
 - Headphones
 - Jackett
 - NZBGet
