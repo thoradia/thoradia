@@ -8,6 +8,7 @@
 - Headphones
 - Jackett
 - NZBGet
+- Radarr
 - SABnzbd
 - SickRage
 - Sonarr
