@@ -3,7 +3,7 @@
 
 <addon id="service.deluge"
        name="Deluge"
-       version="8.1.5"
+       version="8.1.6"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -23,6 +23,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+6:
+- Service after/requires multi-user.target network-online.target
+
 5:
 - Enable start daemon button
 - Wait for DNS
@@ -48,7 +51,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sonarr"
        name="Sonarr"
-       version="8.1.10"
+       version="8.1.11"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -69,6 +72,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+11:
+- Service after/requires multi-user.target network-online.target
+
 10:
 - Update to 2.0.0.4472
 
@@ -109,7 +115,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.jackett"
        name="Jackett"
-       version="8.1.9"
+       version="8.1.11"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -123,13 +129,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Jackett: proxy to tracker sites</summary>
     <description>
-Jackett (0.7.890) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
+Jackett (0.7.932) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+11:
+- update to 0.7.932
+
+10:
+- Service after/requires multi-user.target network-online.target
+
 9:
 - Update to 0.7.890
 
@@ -166,7 +178,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sickrage"
        name="SickRage"
-       version="8.1.9"
+       version="8.1.10"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -186,6 +198,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+10:
+- Service after/requires multi-user.target network-online.target
+
 9:
 - Update to 2017.01.10-1
 
@@ -222,7 +237,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.nzbget"
        name="NZBGet"
-       version="8.1.6"
+       version="8.1.7"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -242,6 +257,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+7:
+- Service after/requires multi-user.target network-online.target
+
 6:
 - Rebuild
 
@@ -269,8 +287,8 @@ Keep it legal and carry on
   </extension>
 </addon>
 <addon id="service.thoradia"
-       name="Thoradia"
-       version="8.1.4"
+       name="Thoradia Add-ons"
+       version="8.1.5"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -286,15 +304,18 @@ Keep it legal and carry on
     <checksum>https://raw.githubusercontent.com/thoradia/thoradia/master/8.1/WeTek_Play_2/aarch64/addons.xml.md5</checksum>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Thoradia: add-on repository</summary>
+    <summary>Thoradia Add-ons: add-on repository</summary>
     <description>
-Thoradia (4) add-on repository, provides CouchPotato, Deluge, Headphones, Jackett, NZBGet, Radarr, SABnzbd, SickRage, Sonarr and Transmission.
+Thoradia Add-ons (5) add-on repository, provides CouchPotato, Deluge, Headphones, Jackett, NZBGet, Radarr, SABnzbd, SickRage, Sonarr and Transmission.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+5:
+- Rename add-on
+
 4:
 - Mention Radarr
 
@@ -316,7 +337,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.headphones"
        name="Headphones"
-       version="8.1.7"
+       version="8.1.8"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -336,6 +357,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+8:
+- Service after/requires multi-user.target network-online.target
+
 7:
 - Remove strip_lto
 
@@ -366,7 +390,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.couchpotato"
        name="CouchPotato"
-       version="8.1.9"
+       version="8.1.10"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -386,6 +410,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+10:
+- Service after/requires multi-user.target network-online.target
+
 9:
 - Remove strip_lto
 
@@ -422,7 +449,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.transmission"
        name="Transmission"
-       version="8.1.7"
+       version="8.1.8"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -442,6 +469,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+8:
+- Service after/requires multi-user.target network-online.target
+
 7:
 - Re-enable spaces in settings, in particular in incomplete path
 
@@ -473,7 +503,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.radarr"
        name="Radarr"
-       version="8.1.1"
+       version="8.1.3"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -487,13 +517,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Radarr: a fork of Sonarr to work with movies à la CouchPotato</summary>
     <description>
-Radarr (0.2.0.152) is a fork of Sonarr to work with movies à la CouchPotato.
+Radarr (0.2.0.238) is a fork of Sonarr to work with movies à la CouchPotato.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+3:
+- Update to 0.2.0.238
+
+2:
+- Service after/requires multi-user.target network-online.target
+
 1:
 - Initial add-on
     </news>
@@ -506,7 +542,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sabnzbd"
        name="SABnzbd"
-       version="8.1.6"
+       version="8.1.7"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -526,6 +562,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+7:
+- Service after/requires multi-user.target network-online.target
+
 6:
 - Remove strip_lto
 
