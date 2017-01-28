@@ -1,0 +1,20 @@
+7:
+- Service after/requires multi-user.target network-online.target
+
+6:
+- Remove strip_lto
+
+5:
+- Update python dependencies
+
+4:
+- Rebuild
+
+3:
+- Update to 1.1.1
+
+2:
+- Remove add-on repository
+
+1:
+- Initial add-on

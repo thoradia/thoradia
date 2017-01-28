@@ -1,9 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 
+<addon id="service.sonarr"
+       name="Sonarr"
+       version="7.0.11"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="7.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Sonarr: a PVR for Usenet and BitTorrent users</summary>
+    <description>
+Sonarr (2.0.0.4472) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="service.jackett"
+       name="Jackett"
+       version="7.0.11"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="7.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Jackett: proxy to tracker sites</summary>
+    <description>
+Jackett (0.7.932) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
 <addon id="service.sickrage"
        name="SickRage"
-       version="7.0.9"
+       version="7.0.10"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="7.0"/>
@@ -24,23 +72,50 @@ Keep it legal and carry on
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="service.radarr"
-       name="Radarr"
-       version="7.0.1"
+<addon id="service.nzbget"
+       name="NZBGet"
+       version="7.0.7"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="7.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
 
-    <import addon="tools.mono" version="0.0.0" />
   </requires>
   <extension point="xbmc.service" library="default.py">
     <provides></provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Radarr: a fork of Sonarr to work with movies à la CouchPotato</summary>
+    <summary>NZBGet: efficient Usenet downloader</summary>
     <description>
-Radarr (0.2.0.152) is a fork of Sonarr to work with movies à la CouchPotato.
+NZBGet (17.1) is an efficient Usenet downloader
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="service.thoradia"
+       name="Thoradia Add-ons"
+       version="7.0.5"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="7.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.repository">
+    <datadir zip="true">https://raw.githubusercontent.com/thoradia/thoradia/master/7.0/RPi2/arm/</datadir>
+    <info>https://raw.githubusercontent.com/thoradia/thoradia/master/7.0/RPi2/arm/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/thoradia/thoradia/master/7.0/RPi2/arm/addons.xml.md5</checksum>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thoradia Add-ons: add-on repository</summary>
+    <description>
+Thoradia Add-ons (5) add-on repository, provides CouchPotato, Deluge, Headphones, Jackett, NZBGet, Radarr, SABnzbd, SickRage, Sonarr and Transmission.
     </description>
     <disclaimer>
 Keep it legal and carry on
@@ -50,7 +125,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.headphones"
        name="Headphones"
-       version="7.0.7"
+       version="7.0.8"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="7.0"/>
@@ -73,7 +148,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.couchpotato"
        name="CouchPotato"
-       version="7.0.9"
+       version="7.0.10"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="7.0"/>
@@ -94,33 +169,9 @@ Keep it legal and carry on
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="service.jackett"
-       name="Jackett"
-       version="7.0.9"
-       provider-name="thoradia">
-  <requires>
-    <import addon="os.libreelec.tv" version="7.0"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-    <import addon="tools.mono" version="0.0.0" />
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Jackett: proxy to tracker sites</summary>
-    <description>
-Jackett (0.7.890) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
-    </description>
-    <disclaimer>
-Keep it legal and carry on
-    </disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
 <addon id="service.transmission"
        name="Transmission"
-       version="7.0.7"
+       version="7.0.8"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="7.0"/>
@@ -141,9 +192,33 @@ Keep it legal and carry on
     <platform>all</platform>
   </extension>
 </addon>
+<addon id="service.radarr"
+       name="Radarr"
+       version="7.0.3"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="7.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Radarr: a fork of Sonarr to work with movies à la CouchPotato</summary>
+    <description>
+Radarr (0.2.0.238) is a fork of Sonarr to work with movies à la CouchPotato.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
 <addon id="service.sabnzbd"
        name="SABnzbd"
-       version="7.0.6"
+       version="7.0.7"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="7.0"/>
@@ -157,81 +232,6 @@ Keep it legal and carry on
     <summary>SABnzbd: free and easy binary newsreader</summary>
     <description>
 SABnzbd (1.1.1) is a program to download binary files from Usenet servers.
-    </description>
-    <disclaimer>
-Keep it legal and carry on
-    </disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-<addon id="service.sonarr"
-       name="Sonarr"
-       version="7.0.10"
-       provider-name="thoradia">
-  <requires>
-    <import addon="os.libreelec.tv" version="7.0"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-    <import addon="tools.mono" version="0.0.0" />
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Sonarr: a PVR for Usenet and BitTorrent users</summary>
-    <description>
-Sonarr (2.0.0.4472) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
-    </description>
-    <disclaimer>
-Keep it legal and carry on
-    </disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-<addon id="service.nzbget"
-       name="NZBGet"
-       version="7.0.6"
-       provider-name="thoradia">
-  <requires>
-    <import addon="os.libreelec.tv" version="7.0"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>NZBGet: efficient Usenet downloader</summary>
-    <description>
-NZBGet (17.1) is an efficient Usenet downloader
-    </description>
-    <disclaimer>
-Keep it legal and carry on
-    </disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-<addon id="service.thoradia"
-       name="Thoradia"
-       version="7.0.4"
-       provider-name="thoradia">
-  <requires>
-    <import addon="os.libreelec.tv" version="7.0"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.repository">
-    <datadir zip="true">https://raw.githubusercontent.com/thoradia/thoradia/master/7.0/RPi2/arm/</datadir>
-    <info>https://raw.githubusercontent.com/thoradia/thoradia/master/7.0/RPi2/arm/addons.xml</info>
-    <checksum>https://raw.githubusercontent.com/thoradia/thoradia/master/7.0/RPi2/arm/addons.xml.md5</checksum>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Thoradia: add-on repository</summary>
-    <description>
-Thoradia (4) add-on repository, provides CouchPotato, Deluge, Headphones, Jackett, NZBGet, Radarr, SABnzbd, SickRage, Sonarr and Transmission.
     </description>
     <disclaimer>
 Keep it legal and carry on
