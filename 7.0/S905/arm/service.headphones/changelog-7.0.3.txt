@@ -1,8 +1,0 @@
-3:
-- Remove add-on repository
-
-2:
-- Add PyOpenSSL
-
-1:
-- Initial add-on
