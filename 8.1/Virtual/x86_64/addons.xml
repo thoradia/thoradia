@@ -3,7 +3,7 @@
 
 <addon id="service.deluge"
        name="Deluge"
-       version="8.1.6"
+       version="8.1.7"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -23,6 +23,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+7:
+- Update libtorrent-rasterbar to 1.0.11
+
 6:
 - Service after/requires multi-user.target network-online.target
 
