@@ -551,7 +551,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sabnzbd"
        name="SABnzbd"
-       version="8.1.7"
+       version="8.1.8"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -564,13 +564,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>SABnzbd: free and easy binary newsreader</summary>
     <description>
-SABnzbd (1.1.1) is a program to download binary files from Usenet servers.
+SABnzbd (1.2.1) is a program to download binary files from Usenet servers.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+8:
+- Update to 1.2.1
+
 7:
 - Service after/requires multi-user.target network-online.target
 
