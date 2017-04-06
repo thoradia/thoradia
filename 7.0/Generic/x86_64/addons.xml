@@ -194,7 +194,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.transmission"
        name="Transmission"
-       version="7.0.8"
+       version="7.0.9"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="7.0"/>
