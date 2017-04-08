@@ -3,7 +3,7 @@
 
 <addon id="service.deluge"
        name="Deluge"
-       version="8.1.10"
+       version="8.1.11"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -14,7 +14,7 @@
     <provides></provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>deluge (08c03d7) is a lightweight, free software, cross-platform BitTorrent client</summary>
+    <summary>deluge (1.3.14) is a lightweight, free software, cross-platform BitTorrent client</summary>
     <description>
 
     </description>
@@ -23,6 +23,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+11:
+- Revert to 1.3.14 and apply only necessary patches
+
 10:
 - Update to 08c03d7
 
@@ -498,7 +501,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.transmission"
        name="Transmission"
-       version="8.1.8"
+       version="8.1.9"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -518,6 +521,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+9:
+- Rebuild
+
 8:
 - Service after/requires multi-user.target network-online.target
 
