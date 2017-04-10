@@ -585,7 +585,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.radarr"
        name="Radarr"
-       version="8.1.6"
+       version="8.1.7"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -599,13 +599,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Radarr: a fork of Sonarr to work with movies à la CouchPotato</summary>
     <description>
-Radarr (0.2.0.535) is a fork of Sonarr to work with movies à la CouchPotato.
+Radarr (0.2.0.596) is a fork of Sonarr to work with movies à la CouchPotato.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+7:
+- Update to 0.2.0.596
+
 6:
 - Update thoradia-libmediainfo to 0.7.94
 
@@ -633,7 +636,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sabnzbd"
        name="SABnzbd"
-       version="8.1.12"
+       version="8.1.13"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -646,13 +649,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>SABnzbd: free and easy binary newsreader</summary>
     <description>
-SABnzbd (1.2.3) is a program to download binary files from Usenet servers.
+SABnzbd (2.0.0) is a program to download binary files from Usenet servers.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+13:
+- Update to 2.0.0
+
 12:
 - Update Python dependencies
 
