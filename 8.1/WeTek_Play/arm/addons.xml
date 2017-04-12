@@ -673,14 +673,47 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
-<addon id="service.sabnzbd"
-       name="SABnzbd"
-       version="8.1.13"
+<addon id="virtual.thoradia-locale"
+       name="Thoradia Locale"
+       version="8.1.1"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
 
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thoradia Locale: the en_US.UTF-8 locale</summary>
+    <description>
+Thoradia Locale (1) provides the en_US.UTF-8 locale.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+1:
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.sabnzbd"
+       name="SABnzbd"
+       version="8.1.14"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="virtual.thoradia-locale" version="0.0.0" />
   </requires>
   <extension point="xbmc.service" library="default.py">
     <provides></provides>
@@ -695,6 +728,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+14:
+- Add a locale
+
 13:
 - Update to 2.0.0
 
