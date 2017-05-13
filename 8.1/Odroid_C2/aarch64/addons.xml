@@ -3,7 +3,7 @@
 
 <addon id="service.deluge"
        name="Deluge"
-       version="8.1.12"
+       version="8.1.13"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -14,7 +14,7 @@
     <provides></provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>deluge (1.3.14) is a lightweight, free software, cross-platform BitTorrent client</summary>
+    <summary>deluge (1.3.15) is a lightweight, free software, cross-platform BitTorrent client</summary>
     <description>
 
     </description>
@@ -23,6 +23,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+13:
+- Update to 1.3.15
+
 12:
 - Update libtorrent-rasterbar to 1.1.3
 - Update Python dependencies
@@ -71,7 +74,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sonarr"
        name="Sonarr"
-       version="8.1.15"
+       version="8.1.16"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -85,13 +88,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Sonarr: a PVR for Usenet and BitTorrent users</summary>
     <description>
-Sonarr (2.0.0.4689) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+Sonarr (2.0.0.4753) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+16:
+- Update to 2.0.0.4753
+
 15:
 - Move thoradia-libmediainfo to virtual.thoradia-mono
 
@@ -148,7 +154,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.jackett"
        name="Jackett"
-       version="8.1.17"
+       version="8.1.18"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -162,13 +168,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Jackett: proxy to tracker sites</summary>
     <description>
-Jackett (0.7.1256) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
+Jackett (0.7.1389) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+18:
+- Update to 0.7.1389
+
 17:
 - Update to 0.7.1256
 
@@ -229,7 +238,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sickrage"
        name="SickRage"
-       version="8.1.14"
+       version="8.1.15"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -242,13 +251,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>SickRage: automatic video library manager for TV shows</summary>
     <description>
-SickRage (2017.04.03-1) watches for new episodes of your favorite shows, and when they are posted it does its magic
+SickRage (2017.05.10-1) watches for new episodes of your favorite shows, and when they are posted it does its magic
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+15:
+- Update to 2017.05.10-1
+
 14:
 - Update to 2017.04.03-1
 - Update Python dependencies
@@ -621,7 +633,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.radarr"
        name="Radarr"
-       version="8.1.9"
+       version="8.1.10"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -635,13 +647,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Radarr: a fork of Sonarr to work with movies à la CouchPotato</summary>
     <description>
-Radarr (0.2.0.654) is a fork of Sonarr to work with movies à la CouchPotato.
+Radarr (0.2.0.696) is a fork of Sonarr to work with movies à la CouchPotato.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+10:
+- Update to 0.2.0.696
+
 9:
 - Update to 0.2.0.654
 
