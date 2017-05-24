@@ -1,6 +1,6 @@
 # Thoradia
 
-##Add-ons for LibreELEC
+## Add-ons for LibreELEC
 
 ### Add-ons
 - CouchPotato
@@ -8,6 +8,7 @@
 - Headphones
 - Jackett
 - NZBGet
+- qBittorrent
 - Radarr
 - SABnzbd
 - SickRage
