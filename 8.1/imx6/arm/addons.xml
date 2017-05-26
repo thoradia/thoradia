@@ -770,38 +770,6 @@ Locale (1) allows users to set a custom locale in the OS to override the POSIX d
     </assets>
   </extension>
 </addon>
-<addon id="virtual.thoradia-locale"
-       name="Thoradia Locale"
-       version="8.1.1"
-       provider-name="thoradia">
-  <requires>
-    <import addon="os.libreelec.tv" version="8.0"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Thoradia Locale: the en_US.UTF-8 locale</summary>
-    <description>
-Thoradia Locale (1) provides the en_US.UTF-8 locale.
-    </description>
-    <disclaimer>
-Keep it legal and carry on
-    </disclaimer>
-    <platform>all</platform>
-    <news>
-1:
-- Initial add-on
-    </news>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
-
-    </assets>
-  </extension>
-</addon>
 <addon id="service.sabnzbd"
        name="SABnzbd"
        version="8.1.15"
