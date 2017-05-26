@@ -3,7 +3,7 @@
 
 <addon id="service.deluge"
        name="Deluge"
-       version="8.1.12"
+       version="8.1.14"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -14,15 +14,21 @@
     <provides></provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>deluge (1.3.14) is a lightweight, free software, cross-platform BitTorrent client</summary>
+    <summary>Deluge: lightweight, free software, cross-platform BitTorrent client</summary>
     <description>
-
+Deluge (1.3.15) is a lightweight, free software, cross-platform BitTorrent client
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+14:
+- Fix description
+
+13:
+- Update to 1.3.15
+
 12:
 - Update libtorrent-rasterbar to 1.1.3
 - Update Python dependencies
@@ -71,13 +77,13 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sonarr"
        name="Sonarr"
-       version="8.1.14"
+       version="8.1.16"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
 
-    <import addon="tools.mono" version="0.0.0" />
+    <import addon="virtual.thoradia-mono" version="0.0.0" />
   </requires>
   <extension point="xbmc.service" library="default.py">
     <provides></provides>
@@ -85,13 +91,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Sonarr: a PVR for Usenet and BitTorrent users</summary>
     <description>
-Sonarr (2.0.0.4689) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+Sonarr (2.0.0.4753) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+16:
+- Update to 2.0.0.4753
+
+15:
+- Move thoradia-libmediainfo to virtual.thoradia-mono
+
 14:
 - Update to 2.0.0.4689
 - Update thoradia-libmediainfo to 0.7.94
@@ -145,7 +157,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.jackett"
        name="Jackett"
-       version="8.1.17"
+       version="8.1.19"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -159,13 +171,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Jackett: proxy to tracker sites</summary>
     <description>
-Jackett (0.7.1256) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
+Jackett (0.7.1437) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+19:
+- Update to 0.7.1437
+
+18:
+- Update to 0.7.1389
+
 17:
 - Update to 0.7.1256
 
@@ -224,9 +242,41 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.qbittorrent"
+       name="qBittorrent"
+       version="8.1.1"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>qBittorrent: efficient feature complete C++ bittorrent implementation</summary>
+    <description>
+qBittorrent (3.3.12) is an efficient feature complete C++ bittorrent implementation
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+1:
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.sickrage"
        name="SickRage"
-       version="8.1.14"
+       version="8.1.16"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -239,13 +289,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>SickRage: automatic video library manager for TV shows</summary>
     <description>
-SickRage (2017.04.03-1) watches for new episodes of your favorite shows, and when they are posted it does its magic
+SickRage (2017.05.23-1) watches for new episodes of your favorite shows, and when they are posted it does its magic
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+16:
+- Update to 2017.05.23-1
+
+15:
+- Update to 2017.05.10-1
+
 14:
 - Update to 2017.04.03-1
 - Update Python dependencies
@@ -355,7 +411,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.thoradia"
        name="Thoradia Add-ons"
-       version="8.1.5"
+       version="8.1.6"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -373,13 +429,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Thoradia Add-ons: add-on repository</summary>
     <description>
-Thoradia Add-ons (5) add-on repository, provides CouchPotato, Deluge, Headphones, Jackett, NZBGet, Radarr, SABnzbd, SickRage, Sonarr and Transmission.
+Thoradia Add-ons (6) add-on repository, provides CouchPotato, Deluge, Headphones, Jackett, NZBGet, qBittorent, Radarr, SABnzbd, SickRage, Sonarr and Transmission.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+6:
+- Mention qBittorrent
+
 5:
 - Rename add-on
 
@@ -391,6 +450,42 @@ Keep it legal and carry on
 
 2:
 - Fix datadir
+
+1:
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="virtual.thoradia-mono"
+       name="Thoradia Mono Tools"
+       version="8.1.2"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thoradia Mono Tools: a bundle of tools required by Mono add-ons</summary>
+    <description>
+Thoradia Mono Tools (2) includes thoradia_libmediainfo.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+2:
+- Update thoradia_libmediainfo to 0.7.95
 
 1:
 - Initial add-on
@@ -585,13 +680,13 @@ Keep it legal and carry on
 </addon>
 <addon id="service.radarr"
        name="Radarr"
-       version="8.1.6"
+       version="8.1.10"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
 
-    <import addon="tools.mono" version="0.0.0" />
+    <import addon="virtual.thoradia-mono" version="0.0.0" />
   </requires>
   <extension point="xbmc.service" library="default.py">
     <provides></provides>
@@ -599,13 +694,25 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Radarr: a fork of Sonarr to work with movies à la CouchPotato</summary>
     <description>
-Radarr (0.2.0.535) is a fork of Sonarr to work with movies à la CouchPotato.
+Radarr (0.2.0.696) is a fork of Sonarr to work with movies à la CouchPotato.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+10:
+- Update to 0.2.0.696
+
+9:
+- Update to 0.2.0.654
+
+8:
+- Move thoradia-libmediainfo to virtual.thoradia-mono
+
+7:
+- Update to 0.2.0.596
+
 6:
 - Update thoradia-libmediainfo to 0.7.94
 
@@ -631,10 +738,10 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
-<addon id="service.sabnzbd"
-       name="SABnzbd"
-       version="8.1.12"
-       provider-name="thoradia">
+<addon id="service.locale"
+       name="Locale"
+       version="8.1.1"
+       provider-name="libreelec.tv">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -644,15 +751,58 @@ Keep it legal and carry on
     <provides></provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <summary>Locale: allows users to set a custom locale to override the POSIX default</summary>
+    <description>
+Locale (1) allows users to set a custom locale in the OS to override the POSIX default
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+1:
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.sabnzbd"
+       name="SABnzbd"
+       version="8.1.15"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="service.locale" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
     <summary>SABnzbd: free and easy binary newsreader</summary>
     <description>
-SABnzbd (1.2.3) is a program to download binary files from Usenet servers.
+SABnzbd (2.0.1) is a program to download binary files from Usenet servers.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+15:
+- Update to 2.0.1
+- Requires service.locale instead of virtual.thoradia-locale
+
+14:
+- Add a locale
+
+13:
+- Update to 2.0.0
+
 12:
 - Update Python dependencies
 
