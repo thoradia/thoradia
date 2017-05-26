@@ -157,7 +157,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.jackett"
        name="Jackett"
-       version="8.1.18"
+       version="8.1.19"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -171,13 +171,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Jackett: proxy to tracker sites</summary>
     <description>
-Jackett (0.7.1389) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
+Jackett (0.7.1437) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+19:
+- Update to 0.7.1437
+
 18:
 - Update to 0.7.1389
 
@@ -273,7 +276,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sickrage"
        name="SickRage"
-       version="8.1.15"
+       version="8.1.16"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -286,13 +289,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>SickRage: automatic video library manager for TV shows</summary>
     <description>
-SickRage (2017.05.10-1) watches for new episodes of your favorite shows, and when they are posted it does its magic
+SickRage (2017.05.23-1) watches for new episodes of your favorite shows, and when they are posted it does its magic
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+16:
+- Update to 2017.05.23-1
+
 15:
 - Update to 2017.05.10-1
 
@@ -457,7 +463,7 @@ Keep it legal and carry on
 </addon>
 <addon id="virtual.thoradia-mono"
        name="Thoradia Mono Tools"
-       version="8.1.1"
+       version="8.1.2"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -471,13 +477,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Thoradia Mono Tools: a bundle of tools required by Mono add-ons</summary>
     <description>
-Thoradia Mono Tools (1) includes thoradia_libmediainfo.
+Thoradia Mono Tools (2) includes thoradia_libmediainfo.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+2:
+- Update thoradia_libmediainfo to 0.7.95
+
 1:
 - Initial add-on
     </news>
@@ -729,6 +738,38 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.locale"
+       name="Locale"
+       version="8.1.1"
+       provider-name="libreelec.tv">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Locale: allows users to set a custom locale to override the POSIX default</summary>
+    <description>
+Locale (1) allows users to set a custom locale in the OS to override the POSIX default
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+1:
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="virtual.thoradia-locale"
        name="Thoradia Locale"
        version="8.1.1"
@@ -763,13 +804,13 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sabnzbd"
        name="SABnzbd"
-       version="8.1.14"
+       version="8.1.15"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
 
-    <import addon="virtual.thoradia-locale" version="0.0.0" />
+    <import addon="service.locale" version="0.0.0" />
   </requires>
   <extension point="xbmc.service" library="default.py">
     <provides></provides>
@@ -777,13 +818,17 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>SABnzbd: free and easy binary newsreader</summary>
     <description>
-SABnzbd (2.0.0) is a program to download binary files from Usenet servers.
+SABnzbd (2.0.1) is a program to download binary files from Usenet servers.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+15:
+- Update to 2.0.1
+- Requires service.locale instead of virtual.thoradia-locale
+
 14:
 - Add a locale
 
