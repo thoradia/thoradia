@@ -3,7 +3,7 @@
 
 <addon id="service.deluge"
        name="Deluge"
-       version="8.1.14"
+       version="8.1.15"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -23,6 +23,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+15:
+- Add priority setting
+
 14:
 - Fix description
 
@@ -77,7 +80,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sonarr"
        name="Sonarr"
-       version="8.1.16"
+       version="8.1.17"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -98,6 +101,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+17:
+- Add priority setting
+
 16:
 - Update to 2.0.0.4753
 
@@ -157,7 +163,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.jackett"
        name="Jackett"
-       version="8.1.19"
+       version="8.1.20"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -178,6 +184,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+20:
+- Add priority setting
+
 19:
 - Update to 0.7.1437
 
@@ -502,7 +511,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.headphones"
        name="Headphones"
-       version="8.1.9"
+       version="8.1.10"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -515,13 +524,17 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Headphones: automated music downloader for NZB and Torrent</summary>
     <description>
-Headphones (0.5.18) is an automated music downloader for NZB and Torrent. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole.
+Headphones (8e1cd31) is an automated music downloader for NZB and Torrent. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+10:
+- Update to 8e1cd31
+- Add priority setting
+
 9:
 - Update Python dependencies
 
@@ -683,7 +696,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.radarr"
        name="Radarr"
-       version="8.1.10"
+       version="8.1.11"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -704,6 +717,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+11:
+- Add priority setting
+
 10:
 - Update to 0.2.0.696
 
