@@ -432,7 +432,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.thoradia"
        name="Thoradia Add-ons"
-       version="8.1.6"
+       version="8.1.7"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -450,13 +450,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Thoradia Add-ons: add-on repository</summary>
     <description>
-Thoradia Add-ons (6) add-on repository, provides CouchPotato, Deluge, Headphones, Jackett, NZBGet, qBittorent, Radarr, SABnzbd, SickRage, Sonarr and Transmission.
+Thoradia Add-ons (7) add-on repository, provides CouchPotato, Deluge, Headphones, Jackett, NZBGet, qBittorent, Radarr, SABnzbd, SickRage, Sonarr and Transmission.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+7:
+- Rework default.py
+
 6:
 - Mention qBittorrent
 
