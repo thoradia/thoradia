@@ -3,7 +3,7 @@
 
 <addon id="service.deluge"
        name="Deluge"
-       version="8.1.16"
+       version="8.1.17"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -23,6 +23,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+17:
+- Fix priority setting
+
 16:
 - Fix priority setting
 
@@ -83,7 +86,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sonarr"
        name="Sonarr"
-       version="8.1.18"
+       version="8.1.19"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -104,6 +107,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+19:
+- Fix priority setting
+
 18:
 - Fix priority setting
 
@@ -169,7 +175,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.jackett"
        name="Jackett"
-       version="8.1.21"
+       version="8.1.22"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -190,6 +196,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+22:
+- Fix priority setting
+
 21:
 - Fix priority setting
 
@@ -262,7 +271,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.qbittorrent"
        name="qBittorrent"
-       version="8.1.2"
+       version="8.1.3"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -282,6 +291,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+3:
+- Add priority setting
+
 2:
 - Build against qt-everywhere 5.8.0
 
@@ -297,7 +309,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sickrage"
        name="SickRage"
-       version="8.1.16"
+       version="8.1.17"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -317,6 +329,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+17:
+- Add priority setting
+
 16:
 - Update to 2017.05.23-1
 
@@ -523,7 +538,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.headphones"
        name="Headphones"
-       version="8.1.11"
+       version="8.1.12"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -543,6 +558,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+12:
+- Fix priority setting
+
 11:
 - Fix priority setting
 
@@ -586,7 +604,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.couchpotato"
        name="CouchPotato"
-       version="8.1.12"
+       version="8.1.14"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -599,13 +617,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>CouchPotato: automatic movie downloading via Usenet and BitTorrent</summary>
     <description>
-CouchPotato (711310d) downloads movies automatically, easily and in the best quality as soon as they are available
+CouchPotato (ec42591) downloads movies automatically, easily and in the best quality as soon as they are available
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+14:
+- Update to ec42591
+
+13:
+- Add priority setting
+
 12:
 - Update python dependencies
 
@@ -711,7 +735,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.radarr"
        name="Radarr"
-       version="8.1.12"
+       version="8.1.13"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -732,6 +756,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+13:
+- Fix priority setting
+
 12:
 - Fix priority setting
 
