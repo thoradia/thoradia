@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+
+<addon id="service.thoradia"
+       name="Thoradia Add-ons"
+       version="8.1.8"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.repository">
+    <datadir zip="true">https://raw.githubusercontent.com/thoradia/thoradia/master/8.1/RPi2/arm/</datadir>
+    <info>https://raw.githubusercontent.com/thoradia/thoradia/master/8.1/RPi2/arm/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/thoradia/thoradia/master/8.1/RPi2/arm/addons.xml.md5</checksum>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thoradia Add-ons: add-on repository</summary>
+    <description>
+Thoradia Add-ons (8) add-on repository, provides CouchPotato, Deluge, Headphones, Jackett, NZBGet, qBittorent, Radarr, SABnzbd, SickRage, Sonarr and Transmission.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+8:
+- Rework default.py
+
+7:
+- Rework default.py
+
+6:
+- Mention qBittorrent
+
+5:
+- Rename add-on
+
+4:
+- Mention Radarr
+
+3:
+- Mention Deluge
+
+2:
+- Fix datadir
+
+1:
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+
+</addons>
