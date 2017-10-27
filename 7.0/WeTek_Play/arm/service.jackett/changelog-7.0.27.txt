@@ -1,0 +1,81 @@
+27:
+- Update to 0.7.1499
+- Enable auto-update
+
+26:
+- Update to 0.7.1483
+
+25:
+- Update to 0.7.1477
+
+24:
+- Update to 0.7.1469
+
+23:
+- Rebuild
+
+22:
+- Fix priority setting
+
+21:
+- Fix priority setting
+
+20:
+- Add priority setting
+
+19:
+- Update to 0.7.1437
+
+18:
+- Update to 0.7.1389
+
+17:
+- Update to 0.7.1256
+
+16:
+- Update to 0.7.1225
+
+15:
+- Update to 0.7.1167
+
+14:
+- Update to 0.7.1150
+
+13:
+- Update to 0.7.1138
+
+12:
+- Update to 0.7.1079
+
+11:
+- Update to 0.7.932
+
+10:
+- Service after/requires multi-user.target network-online.target
+
+9:
+- Update to 0.7.890
+
+8:
+- Update to 0.7.860
+
+7:
+- Update to 0.7.839
+
+6:
+- Update to 0.7.825
+
+5:
+- Update to 0.7.741
+
+4:
+- Update to 0.7.639
+
+3:
+- Remove add-on repository
+
+2:
+- Correct descriptions
+
+1:
+- Initial add-on

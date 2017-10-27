@@ -1,0 +1,61 @@
+20:
+- Rebuild
+
+19:
+- Fix priority setting
+
+18:
+- Fix priority setting
+
+17:
+- Add priority setting
+
+16:
+- Update to 2.0.0.4753
+
+15:
+- Move thoradia-libmediainfo to virtual.thoradia-mono
+
+14:
+- Update to 2.0.0.4689
+- Update thoradia-libmediainfo to 0.7.94
+
+13:
+- Update to 2.0.0.4645
+
+12:
+- Update to 2.0.0.4613
+
+11:
+- Service after/requires multi-user.target network-online.target
+
+10:
+- Update to 2.0.0.4472
+
+9:
+- Update to version 2.0.0.4427
+
+8:
+- Rebuild
+
+7:
+- Update to version 2.0.0.4409
+
+6:
+- Remove add-on repository
+
+5:
+- Update to version 2.0.0.4389
+
+4:
+- Update to version 2.0.0.4374
+- Edit disclaimer
+
+3:
+- Move data to add-on home
+
+2:
+- Update to version 2.0.0.4370
+
+1:
+- Initial add-on

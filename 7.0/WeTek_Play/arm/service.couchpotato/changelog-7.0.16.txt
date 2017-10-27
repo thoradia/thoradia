@@ -1,0 +1,47 @@
+16:
+- Update to 05b7cab
+
+15:
+- Rebuild
+
+14:
+- Update to ec42591
+
+13:
+- Add priority setting
+
+12:
+- Update python dependencies
+
+11:
+- Update to 711310d
+
+10:
+- Service after/requires multi-user.target network-online.target
+
+9:
+- Remove strip_lto
+
+8:
+- Reinstate *.pyo files, required for LXML and SSL
+
+7:
+- Remove *.pyo files to prevent segfaults on aarch64
+
+6:
+- Update python dependencies
+
+5:
+- Update to b538f9a
+
+4:
+- Rebuild
+
+3:
+- Update to 405779047035723bd015fdd51b19379884f53b36
+
+2:
+- Remove add-on repository
+
+1:
+- Initial add-on

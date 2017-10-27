@@ -1,0 +1,39 @@
+13:
+- Rebuild
+
+12:
+- Fix priority setting
+
+11:
+- Fix priority setting
+
+10:
+- Update to 8e1cd31
+- Add priority setting
+
+9:
+- Update Python dependencies
+
+8:
+- Service after/requires multi-user.target network-online.target
+
+7:
+- Remove strip_lto
+
+6:
+- Add and uodate python dependencies
+
+5:
+- Update to 0.5.18
+
+4:
+- Update to 0.5.17
+
+3:
+- Remove add-on repository
+
+2:
+- Add PyOpenSSL
+
+1:
+- Initial add-on

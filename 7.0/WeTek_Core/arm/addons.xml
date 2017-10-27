@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+
+<addon id="service.thoradia"
+       name="Thoradia Add-ons"
+       version="7.0.8"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="7.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.repository">
+    <datadir zip="true">https://raw.githubusercontent.com/thoradia/thoradia/master/7.0/WeTek_Play/arm/</datadir>
+    <info>https://raw.githubusercontent.com/thoradia/thoradia/master/7.0/WeTek_Play/arm/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/thoradia/thoradia/master/7.0/WeTek_Play/arm/addons.xml.md5</checksum>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thoradia Add-ons: add-on repository</summary>
+    <description>
+Thoradia Add-ons (8) add-on repository, provides CouchPotato, Headphones, Jackett, NZBGet, Radarr, SABnzbd, SickRage, Sonarr and Transmission.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+</addons>

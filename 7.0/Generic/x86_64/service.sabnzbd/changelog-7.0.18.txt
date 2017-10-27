@@ -1,0 +1,54 @@
+18:
+- Update to 2.1.0
+
+17:
+- Add priority setting
+
+16:
+- Rebuild
+
+15:
+- Update to 2.0.1
+- Requires service.locale instead of virtual.thoradia-locale
+
+14:
+- Add a locale
+
+13:
+- Update to 2.0.0
+
+12:
+- Update Python dependencies
+
+11:
+- Fix reported version
+
+10:
+- Update to 1.2.3
+
+9:
+- Update to 1.2.2
+
+8:
+- Update to 1.2.1
+
+7:
+- Service after/requires multi-user.target network-online.target
+
+6:
+- Remove strip_lto
+
+5:
+- Update Python dependencies
+
+4:
+- Rebuild
+
+3:
+- Update to 1.1.1
+
+2:
+- Remove add-on repository
+
+1:
+- Initial add-on

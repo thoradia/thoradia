@@ -1,0 +1,57 @@
+19:
+- Update to 2017.06.05-1
+
+18:
+- Rebuild
+
+17:
+- Add priority setting
+
+16:
+- Update to 2017.05.23-1
+
+15:
+- Update to 2017.05.10-1
+
+14:
+- Update to 2017.04.03-1
+- Update Python dependencies
+
+13:
+- Update to 2017.03.30-2
+
+12:
+- Update to 2017.03.16-1
+
+11:
+- Update to 2017.03.08-1
+
+10:
+- Service after/requires multi-user.target network-online.target
+
+9:
+- Update to 2017.01.10-1
+
+8:
+- Remove strip_lto
+
+7:
+- Reinstate *.pyo files, required for LXML and SSL
+
+6:
+- Remove *.pyo files to prevent segfaults on aarch64
+
+5:
+- Update Python dependencies
+
+4:
+- Update to 2016.12.20-2
+
+3:
+- Rebuild
+
+2:
+- Remove add-on repository
+
+1:
+- Initial add-on
