@@ -235,7 +235,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.jackett"
        name="Jackett"
-       version="8.1.27"
+       version="8.1.30"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -249,93 +249,104 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Jackett: proxy to tracker sites</summary>
     <description>
-Jackett (0.7.1499) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
+Jackett (0.8.321) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
-27:
+30
+- Update to 8.8.321
+- Populate Mono certificates
+
+29
+- Update to 0.8.249
+- Use XDG_CONFIG_HOME instead of DataFolder
+
+28
+- Update to 0.7.1523
+
+27
 - Update to 0.7.1499
 - Enable auto-update
 
-26:
+26
 - Update to 0.7.1483
 
-25:
+25
 - Update to 0.7.1477
 
-24:
+24
 - Update to 0.7.1469
 
-23:
+23
 - Rebuild
 
-22:
+22
 - Fix priority setting
 
-21:
+21
 - Fix priority setting
 
-20:
+20
 - Add priority setting
 
-19:
+19
 - Update to 0.7.1437
 
-18:
+18
 - Update to 0.7.1389
 
-17:
+17
 - Update to 0.7.1256
 
-16:
+16
 - Update to 0.7.1225
 
-15:
+15
 - Update to 0.7.1167
 
-14:
+14
 - Update to 0.7.1150
 
-13:
+13
 - Update to 0.7.1138
 
-12:
+12
 - Update to 0.7.1079
 
-11:
+11
 - Update to 0.7.932
 
-10:
+10
 - Service after/requires multi-user.target network-online.target
 
-9:
+9
 - Update to 0.7.890
 
-8:
+8
 - Update to 0.7.860
 
-7:
+7
 - Update to 0.7.839
 
-6:
+6
 - Update to 0.7.825
 
-5:
+5
 - Update to 0.7.741
 
-4:
+4
 - Update to 0.7.639
 
-3:
+3
 - Remove add-on repository
 
-2:
+2
 - Correct descriptions
 
-1:
+1
 - Initial add-on
     </news>
     <assets>
@@ -1035,7 +1046,7 @@ Locale (1) allows users to set a custom locale in the OS to override the POSIX d
 </addon>
 <addon id="service.sabnzbd"
        name="SABnzbd"
-       version="8.1.22"
+       version="8.1.23"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -1049,79 +1060,83 @@ Locale (1) allows users to set a custom locale in the OS to override the POSIX d
   <extension point="xbmc.addon.metadata">
     <summary>SABnzbd: free and easy binary newsreader</summary>
     <description>
-SABnzbd (2.3.0) is a program to download binary files from Usenet servers.
+SABnzbd (2.3.1) is a program to download binary files from Usenet servers.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
-22:
+23
+- Update to 2.3.1
+- Update Python dependencies
+
+22
 - Update to 2.3.0
 
-21:
+21
 - Add six
 
-20:
+20
 - Update to 2.2.1
 
-19:
+19
 - Update to 2.2.0
 - Update Python dependencies
 
-18:
+18
 - Update to 2.1.0
 
-17:
+17
 - Add priority setting
 
-16:
+16
 - Rebuild
 
-15:
+15
 - Update to 2.0.1
 - Requires service.locale instead of virtual.thoradia-locale
 
-14:
+14
 - Add a locale
 
-13:
+13
 - Update to 2.0.0
 
-12:
+12
 - Update Python dependencies
 
-11:
+11
 - Fix reported version
 
-10:
+10
 - Update to 1.2.3
 
-9:
+9
 - Update to 1.2.2
 
-8:
+8
 - Update to 1.2.1
 
-7:
+7
 - Service after/requires multi-user.target network-online.target
 
-6:
+6
 - Remove strip_lto
 
-5:
+5
 - Update Python dependencies
 
-4:
+4
 - Rebuild
 
-3:
+3
 - Update to 1.1.1
 
-2:
+2
 - Remove add-on repository
 
-1:
+1
 - Initial add-on
     </news>
     <assets>
