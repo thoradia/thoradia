@@ -3,7 +3,7 @@
 
 <addon id="service.deluge"
        name="Deluge"
-       version="8.1.19"
+       version="8.1.21"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -16,71 +16,77 @@
   <extension point="xbmc.addon.metadata">
     <summary>Deluge: lightweight, free software, cross-platform BitTorrent client</summary>
     <description>
-Deluge (1.3.15) is a lightweight, free software, cross-platform BitTorrent client
+Deluge (1.3.15) is a lightweight, free software, cross-platform BitTorrent client.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
-19:
-- Update libtorrent-rasterbat to 1.1.4
+21
+- Update dependencies
 
-18:
+20
+- Update Python dependencies
+
+19
+- Update libtorrent-rasterbar to 1.1.4
+
+18
 - Rebuild
 
-17:
+17
 - Fix priority setting
 
-16:
+16
 - Fix priority setting
 
-15:
+15
 - Add priority setting
 
-14:
+14
 - Fix description
 
-13:
+13
 - Update to 1.3.15
 
-12:
+12
 - Update libtorrent-rasterbar to 1.1.3
 - Update Python dependencies
 
-11:
+11
 - Revert to 1.3.14 and apply only necessary patches
 
-10:
+10
 - Update to 08c03d7
 
-9:
+9
 - Update libtorrent-rasterbar to 1.1.2
 
-8:
+8
 - Update to 1.3.14
 - Update Python dependencies
 
-7:
+7
 - Update libtorrent-rasterbar to 1.0.11
 
-6:
+6
 - Service after/requires multi-user.target network-online.target
 
-5:
+5
 - Enable start daemon button
 - Wait for DNS
 
-4:
+4
 - Remove strip_lto
 
-3:
+3
 - Update Python dependencies
 
-2:
+2
 - Rebuild
 
-1:
+1
 - Initial add-on
     </news>
     <assets>
@@ -1046,7 +1052,7 @@ Locale (1) allows users to set a custom locale in the OS to override the POSIX d
 </addon>
 <addon id="service.sabnzbd"
        name="SABnzbd"
-       version="8.1.23"
+       version="8.1.24"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -1067,6 +1073,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+24
+- Rework Python dependencies
+
 23
 - Update to 2.3.1
 - Update Python dependencies
