@@ -3,7 +3,7 @@
 
 <addon id="service.deluge"
        name="Deluge"
-       version="8.2.22"
+       version="8.2.23"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.2"/>
@@ -23,6 +23,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+23
+- Simplify PYTHONPATH
+
 22
 - Rebuild
 
@@ -740,7 +743,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.headphones"
        name="Headphones"
-       version="8.2.17"
+       version="8.2.18"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.2"/>
@@ -760,6 +763,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+18
+- Copy python_common in lib
+
 17
 - Rebuild
 
