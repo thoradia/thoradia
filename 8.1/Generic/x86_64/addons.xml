@@ -3,7 +3,7 @@
 
 <addon id="service.deluge"
        name="Deluge"
-       version="8.1.21"
+       version="8.1.23"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -23,6 +23,12 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+23
+- Simplify PYTHONPATH
+
+22
+- Rebuild
+
 21
 - Update dependencies
 
@@ -727,7 +733,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.headphones"
        name="Headphones"
-       version="8.1.13"
+       version="8.1.18"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -740,51 +746,67 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Headphones: automated music downloader for NZB and Torrent</summary>
     <description>
-Headphones (8e1cd31) is an automated music downloader for NZB and Torrent. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole.
+Headphones (da9287d) is an automated music downloader for NZB and Torrent. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
-13:
+18
+- Copy python_common in lib
+
+17
 - Rebuild
 
-12:
+16
+- Update to da9287d
+- Update Python dependencies
+
+15
+- Update Python dependencies
+
+14
+- Update to 0c98085
+
+13
+- Rebuild
+
+12
 - Fix priority setting
 
-11:
+11
 - Fix priority setting
 
-10:
+10
 - Update to 8e1cd31
 - Add priority setting
 
-9:
+9
 - Update Python dependencies
 
-8:
+8
 - Service after/requires multi-user.target network-online.target
 
-7:
+7
 - Remove strip_lto
 
-6:
-- Add and uodate python dependencies
+6
+- Add and update python dependencies
 
-5:
+5
 - Update to 0.5.18
 
-4:
+4
 - Update to 0.5.17
 
-3:
+3
 - Remove add-on repository
 
-2:
+2
 - Add PyOpenSSL
 
-1:
+1
 - Initial add-on
     </news>
     <assets>
@@ -796,7 +818,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.couchpotato"
        name="CouchPotato"
-       version="8.1.16"
+       version="8.1.20"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -809,59 +831,71 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>CouchPotato: automatic movie downloading via Usenet and BitTorrent</summary>
     <description>
-CouchPotato (05b7cab) downloads movies automatically, easily and in the best quality as soon as they are available
+CouchPotato (0a97ed5) downloads movies automatically, easily and in the best quality as soon as they are available.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
-16:
+20
+- Rebuild
+
+19
+- Update Python dependencies
+
+18
+- Update Python dependencies
+
+17
+- Update to 0a97ed5
+
+16
 - Update to 05b7cab
 
-15:
+15
 - Rebuild
 
-14:
+14
 - Update to ec42591
 
-13:
+13
 - Add priority setting
 
-12:
+12
 - Update python dependencies
 
-11:
+11
 - Update to 711310d
 
-10:
+10
 - Service after/requires multi-user.target network-online.target
 
-9:
+9
 - Remove strip_lto
 
-8:
+8
 - Reinstate *.pyo files, required for LXML and SSL
 
-7:
+7
 - Remove *.pyo files to prevent segfaults on aarch64
 
-6:
+6
 - Update python dependencies
 
-5:
+5
 - Update to b538f9a
 
-4:
+4
 - Rebuild
 
-3:
+3
 - Update to 405779047035723bd015fdd51b19379884f53b36
 
-2:
+2
 - Remove add-on repository
 
-1:
+1
 - Initial add-on
     </news>
     <assets>
@@ -1052,7 +1086,7 @@ Locale (1) allows users to set a custom locale in the OS to override the POSIX d
 </addon>
 <addon id="service.sabnzbd"
        name="SABnzbd"
-       version="8.1.24"
+       version="8.1.26"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -1073,6 +1107,12 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+26
+- Simplify PYTHONPATH
+
+25
+- Rebuild
+
 24
 - Rework Python dependencies
 
