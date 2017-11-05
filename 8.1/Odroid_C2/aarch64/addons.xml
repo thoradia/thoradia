@@ -368,6 +368,38 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.medusa"
+       name="Medusa"
+       version="8.1.1"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Medusa: automatic video library manager for TV shows</summary>
+    <description>
+Medusa (0.1.17) watches for new episodes of your favorite shows, and when they are posted it does its magic.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+1
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.qbittorrent"
        name="qBittorrent"
        version="8.1.9"
