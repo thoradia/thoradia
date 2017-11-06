@@ -626,7 +626,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.thoradia"
        name="Thoradia Add-ons"
-       version="9.0.10"
+       version="9.0.11"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -637,20 +637,23 @@ Keep it legal and carry on
     <provides></provides>
   </extension>
   <extension point="xbmc.addon.repository">
-    <datadir zip="true">https://raw.githubusercontent.com/thoradia/thoradia/master/9.0/RPi/arm/</datadir>
-    <info>https://raw.githubusercontent.com/thoradia/thoradia/master/9.0/RPi/arm/addons.xml</info>
-    <checksum>https://raw.githubusercontent.com/thoradia/thoradia/master/9.0/RPi/arm/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/thoradia/thoradia/master/9.0/RPi2/arm/</datadir>
+    <info>https://raw.githubusercontent.com/thoradia/thoradia/master/9.0/RPi2/arm/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/thoradia/thoradia/master/9.0/RPi2/arm/addons.xml.md5</checksum>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Thoradia Add-ons: add-on repository</summary>
     <description>
-Thoradia Add-ons (10) add-on repository, provides CouchPotato, Deluge, Headphones, Jackett, NZBGet, qBittorent, Radarr, rTorrent, ruTorrent, SABnzbd, SickRage, Sonarr and Transmission.
+Thoradia Add-ons (11) add-on repository, provides CouchPotato, Deluge, Headphones, Jackett, Medusa, NZBGet, qBittorent, Radarr, rTorrent, ruTorrent, SABnzbd, Sonarr and Transmission.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+11
+- Mention Medusa, remove SickRage
+
 10
 - Support Slice and Slice3
 - Update repositories on LibreELEC update
