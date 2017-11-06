@@ -623,7 +623,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.thoradia"
        name="Thoradia Add-ons"
-       version="8.1.9"
+       version="8.1.11"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -641,38 +641,45 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Thoradia Add-ons: add-on repository</summary>
     <description>
-Thoradia Add-ons (9) add-on repository, provides CouchPotato, Deluge, Headphones, Jackett, NZBGet, qBittorent, Radarr, rTorrent, ruTorrent, SABnzbd, SickRage, Sonarr and Transmission.
+Thoradia Add-ons (11) add-on repository, provides CouchPotato, Deluge, Headphones, Jackett, Medusa, NZBGet, qBittorent, Radarr, rTorrent, ruTorrent, SABnzbd, Sonarr and Transmission.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
-9:
+11
+- Mention Medusa, remove SickRage
+
+10
+- Support Slice and Slice3
+- Update repositories on LibreELEC update
+
+9
 - Mention rTorrent and ruTorrent
 
-8:
+8
 - Rework default.py
 
-7:
+7
 - Rework default.py
 
-6:
+6
 - Mention qBittorrent
 
-5:
+5
 - Rename add-on
 
-4:
+4
 - Mention Radarr
 
-3:
+3
 - Mention Deluge
 
-2:
+2
 - Fix datadir
 
-1:
+1
 - Initial add-on
     </news>
     <assets>
