@@ -551,7 +551,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.nzbget"
        name="NZBGet"
-       version="8.1.13"
+       version="8.1.14"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -564,51 +564,54 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>NZBGet: efficient Usenet downloader</summary>
     <description>
-NZBGet (19.1) is an efficient Usenet downloader
+NZBGet (19.1) is an efficient Usenet downloader.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
-13:
-- Update to 19.1
-
-12:
-- Update to 19.0
-
-11:
-- Add priority setting
-
-10:
+14
 - Rebuild
 
-9:
+13
+- Update to 19.1
+
+12
+- Update to 19.0
+
+11
+- Add priority setting
+
+10
+- Rebuild
+
+9
 - Update to 18.1
 
-8:
+8
 - Update to 18.0
 
-7:
+7
 - Service after/requires multi-user.target network-online.target
 
-6:
+6
 - Rebuild
 
 5:
 - Remove add-on repository
 
-4:
+4
 - Add p7zip
 - Set MainDir to add-on home
 
-3:
+3
 - Add unrar
 
-2:
+2
 - Edit disclaimer
 
-1:
+1
 - Initial add-on
     </news>
     <assets>
