@@ -7,13 +7,14 @@
 - Deluge
 - Headphones
 - Jackett
+- Medusa
 - NZBGet
 - qBittorrent
 - Radarr
 - rTorrent
 - ruTorrent
 - SABnzbd
-- SickRage
+- SickRage (dead)
 - Sonarr
 - Transmission
 
@@ -28,7 +29,11 @@ Add-ons are also available [here](https://github.com/thoradia/thoradia "add-ons"
 Provide feedback [here](https://github.com/thoradia/LibreELEC.tv/issues "issues").
 
 ### Source
-The source code is available [here](https://github.com/thoradia/LibreELEC.tv/tree/thoradia/packages/thoradia "source").
+The source code is available here:
+- [for LibreELEC 9.0 (alpha)](https://github.com/thoradia/LibreELEC.tv/tree/9.0/packages/thoradia "9.0")
+- [for LibreELEC 8.2](https://github.com/thoradia/LibreELEC.tv/tree/8.2/packages/thoradia "8.2")
+- [for LibreELEC 8.0](https://github.com/thoradia/LibreELEC.tv/tree/8.1/packages/thoradia "8.1")
+- [for LibreELEC 7.0 (dead)](https://github.com/thoradia/LibreELEC.tv/tree/thoradia-7.0/packages/thoradia "7.0")
 
 ### Disclaimer
 This project is built with and runs on LibreELEC, but does not otherwise relate to LibreELEC.  
