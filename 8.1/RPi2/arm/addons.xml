@@ -152,7 +152,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sonarr"
        name="Sonarr"
-       version="8.1.22"
+       version="8.1.23"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -166,76 +166,82 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Sonarr: a PVR for Usenet and BitTorrent users</summary>
     <description>
-Sonarr (2.0.0.4949) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+Sonarr (2.0.0.5054) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
-22:
+23
+- Update to 2.0.0.5054
+
+22
 - Update to 2.0.0.4949
 
-20:
+21
+- Update to 2.0.0.4855
+
+20
 - Rebuild
 
-19:
+19
 - Fix priority setting
 
-18:
+18
 - Fix priority setting
 
-17:
+17
 - Add priority setting
 
-16:
+16
 - Update to 2.0.0.4753
 
-15:
+15
 - Move thoradia-libmediainfo to virtual.thoradia-mono
 
-14:
+14
 - Update to 2.0.0.4689
 - Update thoradia-libmediainfo to 0.7.94
 
-13:
+13
 - Update to 2.0.0.4645
 
-12:
+12
 - Update to 2.0.0.4613
 
-11:
+11
 - Service after/requires multi-user.target network-online.target
 
-10:
+10
 - Update to 2.0.0.4472
 
-9:
+9
 - Update to version 2.0.0.4427
 
-8:
+8
 - Rebuild
 
-7:
+7
 - Update to version 2.0.0.4409
 
-6:
+6
 - Remove add-on repository
 
-5:
+5
 - Update to version 2.0.0.4389
 
-4:
+4
 - Update to version 2.0.0.4374
 - Edit disclaimer
 
-3:
+3
 - Move data to add-on home
 
-2:
+2
 - Update to version 2.0.0.4370
 
-1:
+1
 - Initial add-on
     </news>
     <assets>
@@ -1028,7 +1034,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.radarr"
        name="Radarr"
-       version="8.1.16"
+       version="8.1.17"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -1042,59 +1048,62 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Radarr: a fork of Sonarr to work with movies à la CouchPotato</summary>
     <description>
-Radarr (0.2.0.852) is a fork of Sonarr to work with movies à la CouchPotato.
+Radarr (0.2.0.870) is a fork of Sonarr to work with movies à la CouchPotato.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
-16:
+17
+- Update to 0.2.0.870
+
+16
 - Update to 0.2.0.852
 
-15:
+15
 - Update to 0.2.0.778
 
-14:
+14
 - Rebuild
 
-13:
+13
 - Fix priority setting
 
-12:
+12
 - Fix priority setting
 
-11:
+11
 - Add priority setting
 
-10:
+10
 - Update to 0.2.0.696
 
-9:
+9
 - Update to 0.2.0.654
 
-8:
+8
 - Move thoradia-libmediainfo to virtual.thoradia-mono
 
-7:
+7
 - Update to 0.2.0.596
 
-6:
+6
 - Update thoradia-libmediainfo to 0.7.94
 
-5:
+5
 - Update to 0.2.0.535
 
-4:
+4
 - Update to 0.2.0.375
 
-3:
+3
 - Update to 0.2.0.238
 
-2:
+2
 - Service after/requires multi-user.target network-online.target
 
-1:
+1
 - Initial add-on
     </news>
     <assets>
