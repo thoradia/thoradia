@@ -965,7 +965,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.transmission"
        name="Transmission"
-       version="8.2.13"
+       version="8.2.14"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.2"/>
@@ -978,51 +978,54 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Transmission: a fast, easy and free BitTorrent client</summary>
     <description>
-Transmission (2.92) is a fast, easy and free BitTorrent client
+Transmission (2.92) is a fast, easy and free BitTorrent client.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
-13:
+14
+- Rework package
+
+13
 - Build against static libcurl 7.54.0
 
-12:
+12
 - Add priority setting
 
-11:
+11
 - Rebuild
 
-10:
+10
 - Update libevent to 2.1.8-stable
 
-9:
+9
 - Rebuild
 
-8:
+8
 - Service after/requires multi-user.target network-online.target
 
-7:
+7
 - Re-enable spaces in settings, in particular in incomplete path
 
-6:
+6
 - Provide for custom initialisation script
 
-5:
+5
 - Remove add-on repository
 
-4:
+4
 - Optional incomplete-dir
 
-3:
+3
 - Disable lightweight
 - Rework settings
 
-2:
+2
 - Edit disclaimer
 
-1:
+1
 - Initial add-on
     </news>
     <assets>
