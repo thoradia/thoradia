@@ -3,6 +3,7 @@
 ## Add-ons for LibreELEC
 
 ### Add-ons
+- aria2
 - CouchPotato
 - Deluge
 - Headphones
