@@ -1159,7 +1159,7 @@ Locale (1) allows users to set a custom locale in the OS to override the POSIX d
 </addon>
 <addon id="service.aria2"
        name="aria2"
-       version="8.1.1"
+       version="8.1.2"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -1179,6 +1179,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+2
+- Rework system.d
+
 1
 - Initial add-on
     </news>
