@@ -10,6 +10,7 @@
 - Jackett
 - Medusa
 - NZBGet
+- NZBHydra
 - qBittorrent
 - Radarr
 - rTorrent
