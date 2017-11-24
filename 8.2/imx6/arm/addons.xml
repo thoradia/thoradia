@@ -744,7 +744,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.rtorrent"
        name="rTorrent"
-       version="8.2.5"
+       version="8.2.6"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.2"/>
@@ -757,28 +757,31 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>rTorrent: quick and efficient BitTorrent client</summary>
     <description>
-rTorrent (0.9.6) is a quick and efficient BitTorrent client
+rTorrent (0.9.6) is a quick and efficient BitTorrent client.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
-5:
+6
+- Rework add-on
+
+5
 - Build against static libcurl 7.54.0
 
-4:
+4
 - Bind to 127.0.0.1 rather than to localhost
 
-3:
+3
 - Refer to session directory with an absolute path
 
-2:
+2
 - Add changelog.txt
 - Fix xmlrpc-c
 - Force scgi_port
 
-1:
+1
 - Initial add-on
     </news>
     <assets>
