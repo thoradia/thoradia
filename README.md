@@ -6,6 +6,7 @@
 - aria2
 - CouchPotato
 - Deluge
+- FlexGet
 - Headphones
 - Jackett
 - Medusa
