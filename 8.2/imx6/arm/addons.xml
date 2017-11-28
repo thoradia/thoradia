@@ -1206,7 +1206,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.flexget"
        name="FlexGet"
-       version="8.2.1"
+       version="8.2.2"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.2"/>
@@ -1226,6 +1226,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+2
+- Fix default config.yml
+
 1
 - Initial add-on
     </news>
