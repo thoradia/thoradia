@@ -842,7 +842,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.couchpotato"
        name="CouchPotato"
-       version="9.0.20"
+       version="9.0.21"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -862,6 +862,10 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+21
+- Fix nice
+- Rework Python
+
 20
 - Rebuild
 
