@@ -757,7 +757,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.headphones"
        name="Headphones"
-       version="9.0.18"
+       version="9.0.19"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -777,6 +777,11 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+19
+- Add port to settings
+- Fix nice
+- Rework Python
+
 18
 - Copy python_common in lib
 
