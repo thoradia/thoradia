@@ -1158,7 +1158,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sabnzbd"
        name="SABnzbd"
-       version="9.0.26"
+       version="9.0.27"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -1179,6 +1179,10 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+27
+- Fix nice
+- Rework Python
+
 26
 - Simplify PYTHONPATH
 
