@@ -1220,7 +1220,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.flexget"
        name="FlexGet"
-       version="8.2.3"
+       version="8.2.4"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.2"/>
@@ -1233,13 +1233,17 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>FlexGet: automate downloading or processing content from different sources</summary>
     <description>
-FlexGet (2.11.6) is a program aimed to automate downloading or processing content (torrents, podcasts, etc.) from different sources like RSS-feeds, html-pages, various sites and more.
+FlexGet (2.11.9) is a program aimed to automate downloading or processing content (torrents, podcasts, etc.) from different sources like RSS-feeds, html-pages, various sites and more.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+4
+- Update to 2.11.9
+- Add transmissionrpc
+
 3
 - Update to 2.11.6
 - Rework Python
