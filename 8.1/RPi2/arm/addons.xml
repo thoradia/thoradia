@@ -411,12 +411,13 @@ Keep it legal and carry on
 </addon>
 <addon id="service.medusa"
        name="Medusa"
-       version="8.1.1"
+       version="8.1.2"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
 
+    <import addon="service.locale" version="0.0.0" />
   </requires>
   <extension point="xbmc.service" library="default.py">
     <provides></provides>
@@ -424,13 +425,17 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Medusa: automatic video library manager for TV shows</summary>
     <description>
-Medusa (0.1.17) watches for new episodes of your favorite shows, and when they are posted it does its magic.
+Medusa (0.1.20) watches for new episodes of your favorite shows, and when they are posted it does its magic.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+2
+- Update to 0.1.20
+- Medusa requires Locale
+
 1
 - Initial add-on
     </news>
