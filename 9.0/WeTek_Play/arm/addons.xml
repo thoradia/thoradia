@@ -3,7 +3,7 @@
 
 <addon id="service.deluge"
        name="Deluge"
-       version="9.0.24"
+       version="9.0.25"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -23,6 +23,12 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+25
+- Update Python dependencies
+- Update boost to 1.66.0
+- Update libtorrent-rasterbar to 1.1.6
+- Use own libtorrent-rasterbar
+
 24
 - Add port to settings
 - Fix nice
@@ -453,7 +459,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.qbittorrent"
        name="qBittorrent"
-       version="9.0.10"
+       version="9.0.11"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -466,13 +472,20 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>qBittorrent: efficient feature complete C++ bittorrent implementation</summary>
     <description>
-qBittorrent (3.3.16) is an efficient feature complete C++ bittorrent implementation.
+qBittorrent (4.0.3) is an efficient feature complete C++ bittorrent implementation.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+11
+- Update to 4.0.3
+- Update boost to 1.66.0
+- Update libtorrent-rasterbar to 1.1.6
+- Update qt-everywehere to 5.10.0
+- Use own libtorrent-rasterbar
+
 10
 - Update libtorrent-rasterbar to 1.1.5
 - Update qt-everywhere to 5.9.2
@@ -1091,6 +1104,38 @@ Keep it legal and carry on
 2
 - Service after/requires multi-user.target network-online.target
 
+1
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="tools.btfs"
+       name="btfs"
+       version="9.0.1"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>btfs: bittorrent filesystem based on FUSE</summary>
+    <description>
+btfs (2.18) is a bittorrent filesystem based on FUSE.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
 1
 - Initial add-on
     </news>
