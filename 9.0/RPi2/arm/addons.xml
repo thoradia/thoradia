@@ -457,6 +457,39 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.lidarr"
+       name="Lidarr"
+       version="9.0.1"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="virtual.thoradia-mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Lidarr: a music collection manager for Usenet and BitTorrent users</summary>
+    <description>
+Lidarr (0.2.0.267) is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+1
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.qbittorrent"
        name="qBittorrent"
        version="9.0.11"
@@ -600,7 +633,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.thoradia"
        name="Thoradia Add-ons"
-       version="9.0.16"
+       version="9.0.17"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -618,13 +651,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Thoradia Add-ons: add-on repository</summary>
     <description>
-Thoradia Add-ons (16) add-on repository, provides aria2, CouchPotato, Deluge, FlexGet, Headphones, Jackett, Medusa, NZBGet, NZBHydra, qBittorent, Radarr, rTorrent, ruTorrent, SABnzbd, Sonarr and Transmission.
+Thoradia Add-ons (17) add-on repository, provides aria2, btfs, CouchPotato, Deluge, FlexGet, Headphones, Jackett, Lidarr, Medusa, NZBGet, NZBHydra, qBittorent, Radarr, rTorrent, ruTorrent, SABnzbd, Sonarr and Transmission.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+17
+- Add btfs and Lidarr
+
 16
 - Add FlexGet
 
