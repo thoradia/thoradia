@@ -492,7 +492,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.qbittorrent"
        name="qBittorrent"
-       version="8.1.11"
+       version="8.1.12"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.0"/>
@@ -505,13 +505,17 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>qBittorrent: efficient feature complete C++ bittorrent implementation</summary>
     <description>
-qBittorrent (4.0.3) is an efficient feature complete C++ bittorrent implementation.
+qBittorrent (4.0.4) is an efficient feature complete C++ bittorrent implementation.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+12
+- Update to 4.0.4
+- Update qt-everywehere to 5.10.1
+
 11
 - Update to 4.0.3
 - Update boost to 1.66.0
