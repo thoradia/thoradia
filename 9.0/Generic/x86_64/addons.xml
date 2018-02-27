@@ -166,7 +166,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sonarr"
        name="Sonarr"
-       version="9.0.23"
+       version="9.0.25"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -180,13 +180,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Sonarr: a PVR for Usenet and BitTorrent users</summary>
     <description>
-Sonarr (2.0.0.5054) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+Sonarr (2.0.0.5153) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+25
+- Update to 2.0.0.5153
+
+24
+- Update to 2.0.0.5085
+
 23
 - Update to 2.0.0.5054
 
@@ -267,7 +273,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.jackett"
        name="Jackett"
-       version="9.0.30"
+       version="9.0.32"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -281,13 +287,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Jackett: proxy to tracker sites</summary>
     <description>
-Jackett (0.8.321) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
+Jackett (0.8.737) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+32
+- Update to 0.8.737
+
+31
+- Update to 0.8.716
+
 30
 - Update to 8.8.321
 - Populate Mono certificates
@@ -390,7 +402,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.nzbhydra"
        name="NZBHydra"
-       version="9.0.1"
+       version="9.0.2"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -403,13 +415,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>NZBHydra: meta search for NZB indexers </summary>
     <description>
-NZBHydra (0.2.230) is a meta search for NZB indexers. It provides easy access to a number of raw and newznab based indexers. You can search all your indexers from one place and use it as indexer source for tools like Sonarr or CouchPotato.
+NZBHydra (0.2.233) is a meta search for NZB indexers. It provides easy access to a number of raw and newznab based indexers. You can search all your indexers from one place and use it as indexer source for tools like Sonarr or CouchPotato.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+2
+- Update to 0.2.233
+
 1
 - Initial add-on
     </news>
@@ -422,7 +437,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.medusa"
        name="Medusa"
-       version="9.0.2"
+       version="9.0.4"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -436,13 +451,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Medusa: automatic video library manager for TV shows</summary>
     <description>
-Medusa (0.1.20) watches for new episodes of your favorite shows, and when they are posted it does its magic.
+Medusa (0.2.1) watches for new episodes of your favorite shows, and when they are posted it does its magic.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+4
+- Update to 0.2.1
+
+3
+- Update to 0.2.0
+
 2
 - Update to 0.1.20
 - Medusa requires Locale
@@ -459,7 +480,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.lidarr"
        name="Lidarr"
-       version="9.0.1"
+       version="9.0.3"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -473,13 +494,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Lidarr: a music collection manager for Usenet and BitTorrent users</summary>
     <description>
-Lidarr (0.2.0.267) is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+Lidarr (0.2.0.289) is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+3
+- Update to 0.2.0.289
+
+2
+- Update to 0.2.0.286
+
 1
 - Initial add-on
     </news>
@@ -1078,7 +1105,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.radarr"
        name="Radarr"
-       version="9.0.17"
+       version="9.0.18"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -1092,13 +1119,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Radarr: a fork of Sonarr to work with movies à la CouchPotato</summary>
     <description>
-Radarr (0.2.0.870) is a fork of Sonarr to work with movies à la CouchPotato.
+Radarr (0.2.0.980) is a fork of Sonarr to work with movies à la CouchPotato.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+18
+- Update to 0.2.0.980
+
 17
 - Update to 0.2.0.870
 
@@ -1226,7 +1256,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.flexget"
        name="FlexGet"
-       version="9.0.5"
+       version="9.0.7"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -1239,13 +1269,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>FlexGet: automate downloading or processing content from different sources</summary>
     <description>
-FlexGet (2.12.7) is a program aimed to automate downloading or processing content (torrents, podcasts, etc.) from different sources like RSS-feeds, html-pages, various sites and more.
+FlexGet (2.13.0) is a program aimed to automate downloading or processing content (torrents, podcasts, etc.) from different sources like RSS-feeds, html-pages, various sites and more.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+7
+- Update to 2.13.0
+
+6
+- Update to 2.12.10
+
 5
 - Update to 2.12.7
 - Add deluge
