@@ -799,7 +799,7 @@ Keep it legal and carry on
 </addon>
 <addon id="virtual.thoradia-mono"
        name="Thoradia Mono Tools"
-       version="9.0.6"
+       version="9.0.7"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -813,13 +813,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Thoradia Mono Tools: a bundle of tools required by Mono add-ons</summary>
     <description>
-Thoradia Mono Tools (6) includes libmediainfo shared library.
+Thoradia Mono Tools (7) includes libmediainfo shared library.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+7
+- Update libmediainfo to 17.12
+
 6
 - Update libmediainfo to 17.10
 
