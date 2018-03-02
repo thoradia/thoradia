@@ -459,7 +459,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.lidarr"
        name="Lidarr"
-       version="8.2.1"
+       version="8.2.3"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.2"/>
@@ -473,13 +473,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Lidarr: a music collection manager for Usenet and BitTorrent users</summary>
     <description>
-Lidarr (0.2.0.267) is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+Lidarr (0.2.0.289) is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+3
+- Update to 0.2.0.289
+
+2
+- Update to 0.2.0.286
+
 1
 - Initial add-on
     </news>
@@ -859,7 +865,7 @@ Keep it legal and carry on
 </addon>
 <addon id="virtual.thoradia-mono"
        name="Thoradia Mono Tools"
-       version="8.2.6"
+       version="8.2.7"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.2"/>
@@ -873,13 +879,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Thoradia Mono Tools: a bundle of tools required by Mono add-ons</summary>
     <description>
-Thoradia Mono Tools (6) includes libmediainfo shared library.
+Thoradia Mono Tools (7) includes libmediainfo shared library.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+7
+- Update libmediainfo to 17.12
+
 6
 - Update libmediainfo to 17.10
 
