@@ -480,7 +480,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.lidarr"
        name="Lidarr"
-       version="9.0.3"
+       version="9.0.4"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -494,13 +494,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Lidarr: a music collection manager for Usenet and BitTorrent users</summary>
     <description>
-Lidarr (0.2.0.289) is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+Lidarr (0.2.0.291) is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+4
+- Update to 0.2.0.291
+
 3
 - Update to 0.2.0.289
 
@@ -799,7 +802,7 @@ Keep it legal and carry on
 </addon>
 <addon id="virtual.thoradia-mono"
        name="Thoradia Mono Tools"
-       version="9.0.7"
+       version="9.0.8"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -813,13 +816,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Thoradia Mono Tools: a bundle of tools required by Mono add-ons</summary>
     <description>
-Thoradia Mono Tools (7) includes libmediainfo shared library.
+Thoradia Mono Tools (8) includes libmediainfo shared library.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+8
+- Fix libmediainfo
+
 7
 - Update libmediainfo to 17.12
 
@@ -1108,7 +1114,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.radarr"
        name="Radarr"
-       version="9.0.18"
+       version="9.0.19"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -1122,13 +1128,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Radarr: a fork of Sonarr to work with movies à la CouchPotato</summary>
     <description>
-Radarr (0.2.0.980) is a fork of Sonarr to work with movies à la CouchPotato.
+Radarr (0.2.0.995) is a fork of Sonarr to work with movies à la CouchPotato.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+19
+- Update to 0.2.0.995
+
 18
 - Update to 0.2.0.980
 
