@@ -1042,7 +1042,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.transmission"
        name="Transmission"
-       version="9.0.15"
+       version="9.0.16"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -1055,13 +1055,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Transmission: a fast, easy and free BitTorrent client</summary>
     <description>
-Transmission (2.93) is a fast, easy and free BitTorrent client.
+Transmission (2.94) is a fast, easy and free BitTorrent client.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+16
+- Update to 2.94
+
 15
 - Update to 2.93
 
