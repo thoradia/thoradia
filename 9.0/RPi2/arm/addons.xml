@@ -480,7 +480,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.lidarr"
        name="Lidarr"
-       version="9.0.4"
+       version="9.0.5"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -494,13 +494,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Lidarr: a music collection manager for Usenet and BitTorrent users</summary>
     <description>
-Lidarr (0.2.0.291) is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+Lidarr (0.2.0.371) is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+5
+- Update to 0.2.0.371
+
 4
 - Update to 0.2.0.291
 
