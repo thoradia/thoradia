@@ -115,7 +115,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.rutorrent"
        name="ruTorrent"
-       version="8.2.7"
+       version="8.2.8"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.2"/>
@@ -136,6 +136,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+8
+- Update php to 7.2.5
+
 7
 - Update php to 7.1.11
 
@@ -671,7 +674,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.nzbget"
        name="NZBGet"
-       version="8.2.14"
+       version="8.2.15"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.2"/>
@@ -684,13 +687,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>NZBGet: efficient Usenet downloader</summary>
     <description>
-NZBGet (19.1) is an efficient Usenet downloader.
+NZBGet (20.0) is an efficient Usenet downloader.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+15
+- Update to 20.0
+
 14
 - Rebuild
 
@@ -829,7 +835,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.rtorrent"
        name="rTorrent"
-       version="8.2.6"
+       version="8.2.7"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.2"/>
@@ -842,13 +848,17 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>rTorrent: quick and efficient BitTorrent client</summary>
     <description>
-rTorrent (0.9.6) is a quick and efficient BitTorrent client.
+rTorrent (0.9.7) is a quick and efficient BitTorrent client.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+7
+- Update to 0.9.7
+- Update libtorrent to 1.13.7
+
 6
 - Rework add-on
 
