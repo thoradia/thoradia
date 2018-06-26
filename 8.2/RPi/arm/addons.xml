@@ -507,7 +507,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.qbittorrent"
        name="qBittorrent"
-       version="8.2.14"
+       version="8.2.15"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="8.2"/>
@@ -527,6 +527,10 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+15
+- Update libtorrent-rasterbar to 1.1.8
+- Update qt-everywehere to 5.11.1
+
 14
 - Update to 4.1.1
 
