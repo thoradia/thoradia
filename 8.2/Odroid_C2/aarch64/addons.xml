@@ -890,6 +890,73 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="tools.mono"
+       name="Mono"
+       version="8.2.111"
+       provider-name="Anton Voyl (awiouy)">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Mono: a cross platform, open source .NET framework</summary>
+    <description>
+Mono (5.8.0.108) is a software platform designed to allow developers to easily create cross platform applications part of the .NET Foundation
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+111
+- Downgrade to 5.8.0.108
+
+100
+- Update to 5.12.0.226
+
+109
+- Update to 5.4.1.6
+
+108
+- Update to 5.4.0.201
+
+107
+- Update to 5.2.0.224
+
+106
+- Update to 5.2.0.215
+
+105
+- Update to 5.0.1.1
+
+104
+- Update to 5.0.0.100
+
+103
+- Update to 4.8.1.0
+
+102
+- Update to 4.8.0.495
+
+101
+- Update to 4.2.1.102
+- Build static for all projects and architectures
+- Remove uneeded binaries and libraries
+
+100
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="virtual.thoradia-mono"
        name="Thoradia Mono Tools"
        version="8.2.7"
