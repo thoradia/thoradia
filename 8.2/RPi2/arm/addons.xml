@@ -840,6 +840,38 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.thoradia-vpn"
+       name="Thoradia VPN Network Interface"
+       version="8.2.1"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="8.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thoradia VPN Network Interface: a virtual private network interface</summary>
+    <description>
+Thoradia VPN Network Interface (1) provides the thoradia-vpn network interface to which applications can bind. The system continues using unmodified network configuration whereas applications bound to the thoradia-vpn network interface connect to the VPN. Thoradia VPN Network Interface is compatible with VPN Manager for OpenVPN.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+1
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.rtorrent"
        name="rTorrent"
        version="8.2.7"
