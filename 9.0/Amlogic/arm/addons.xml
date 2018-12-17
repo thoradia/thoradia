@@ -435,12 +435,13 @@ Keep it legal and carry on
 </addon>
 <addon id="service.medusa"
        name="Medusa"
-       version="9.0.4"
+       version="9.0.5"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 
     <import addon="service.locale" version="0.0.0" />
+    <import addon="tools.ffmpeg-tools" version="0.0.0" />
   </requires>
   <extension point="xbmc.service" library="default.py">
     <provides></provides>
@@ -448,13 +449,17 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Medusa: automatic video library manager for TV shows</summary>
     <description>
-Medusa (0.2.1) watches for new episodes of your favorite shows, and when they are posted it does its magic.
+Medusa (0.2.13) watches for new episodes of your favorite shows, and when they are posted it does its magic.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+5
+- Update to 0.2.13
+- Medusa requires FFmpeg
+
 4
 - Update to 0.2.1
 
@@ -521,7 +526,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.qbittorrent"
        name="qBittorrent"
-       version="9.0.17"
+       version="9.0.18"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -540,6 +545,10 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+18
+- Update libtorrent-rasterbar to 1.1.11
+- Update qt-everywehere to 5.12.0
+
 17
 - Update to 4.1.3
 - Update qt-everywehere to 5.11.2
