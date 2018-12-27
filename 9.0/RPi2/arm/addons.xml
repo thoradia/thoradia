@@ -533,7 +533,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.qbittorrent"
        name="qBittorrent"
-       version="9.0.18"
+       version="9.0.19"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -546,13 +546,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>qBittorrent: efficient feature complete C++ bittorrent implementation</summary>
     <description>
-qBittorrent (4.1.3) is an efficient feature complete C++ bittorrent implementation.
+qBittorrent (4.1.5) is an efficient feature complete C++ bittorrent implementation.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+19
+- Update to 4.1.5
+
 18
 - Update libtorrent-rasterbar to 1.1.11
 - Update qt-everywehere to 5.12.0
@@ -1412,7 +1415,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sabnzbd"
        name="SABnzbd"
-       version="9.0.31"
+       version="9.0.32"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -1426,13 +1429,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>SABnzbd: free and easy binary newsreader</summary>
     <description>
-SABnzbd (2.3.5) is a program to download binary files from Usenet servers.
+SABnzbd (2.3.6) is a program to download binary files from Usenet servers.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+32
+- Update to 2.3.6
+
 31
 - Update to 2.3.5
 
