@@ -935,7 +935,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.headphones"
        name="Headphones"
-       version="9.0.19"
+       version="9.0.20"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -947,13 +947,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Headphones: automated music downloader for NZB and Torrent</summary>
     <description>
-Headphones (da9287d) is an automated music downloader for NZB and Torrent. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole.
+Headphones (b45f3565da1759485b632493f295bab900df1e7e) is an automated music downloader for NZB and Torrent. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+20
+- Update to b45f356
+
 19
 - Add port to settings
 - Fix nice
