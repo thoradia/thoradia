@@ -1024,7 +1024,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.couchpotato"
        name="CouchPotato"
-       version="9.0.21"
+       version="9.0.22"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1036,13 +1036,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>CouchPotato: automatic movie downloading via Usenet and BitTorrent</summary>
     <description>
-CouchPotato (0a97ed5) downloads movies automatically, easily and in the best quality as soon as they are available.
+CouchPotato (12ca4c22680961346e0aa2617941bf1a7252fc67) downloads movies automatically, easily and in the best quality as soon as they are available.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+22
+- Update to 12ca4c2
+
 21
 - Fix nice
 - Rework Python
