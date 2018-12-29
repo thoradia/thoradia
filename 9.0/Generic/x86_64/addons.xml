@@ -3,7 +3,7 @@
 
 <addon id="service.deluge"
        name="Deluge"
-       version="9.0.25"
+       version="9.0.26"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -23,6 +23,10 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+26
+- Update Python dependencies
+- Update libtorrent-rasterbar to 1.1.11
+
 25
 - Update Python dependencies
 - Update boost to 1.66.0
