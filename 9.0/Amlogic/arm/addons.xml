@@ -834,7 +834,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.rtorrent"
        name="rTorrent"
-       version="9.0.7"
+       version="9.0.8"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -853,6 +853,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+8
+- Rebuild
+
 7
 - Update to 0.9.7
 - Update libtorrent to 1.13.7
