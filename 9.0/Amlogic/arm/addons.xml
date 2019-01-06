@@ -801,6 +801,37 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.bazarr"
+       name="Bazarr"
+       version="9.0.1"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Bazarr: subtitles for Sonarr and Radarr</summary>
+    <description>
+Bazarr (0.6.9.1) is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movies and Bazarr takes care of everything for you. 
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+1
+- Initial add-on
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.thoradia-vpn"
        name="Thoradia VPN Network Interface"
        version="9.0.1"
