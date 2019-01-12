@@ -801,6 +801,58 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.webgrabplus"
+       name="WebGrab+Plus"
+       version="9.0.106"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>WebGrab+Plus: a multi-site incremental xmltv epg grabber</summary>
+    <description>
+WebGrab+Plus (2.1.5_beta) collects tv-program guide data from selected tvguide sites for your favourite channels.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+105
+- Upgrade WebGrab!Plus to 2.1.5_beta
+
+104
+- Upgrade siteini.pack to 20161021
+- Add system.d timer
+- Add license headers
+
+103
+- Upgrade mdb ini files
+
+102
+- Upgrade WebGrab+Plus to 56.29.pre
+- Upgrade siteini.pack to 20160807
+- Call user defined pre/post processing
+
+101
+- Upgrade WebGrab+Plus to 56.28.pre
+- Upgrade siteini.pack to 20160729
+
+100
+- Initial addon
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.bazarr"
        name="Bazarr"
        version="9.0.1"
