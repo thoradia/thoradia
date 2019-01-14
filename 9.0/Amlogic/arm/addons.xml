@@ -855,7 +855,7 @@ WebGrab+Plus (2.1.5_beta) collects tv-program guide data from selected tvguide s
 </addon>
 <addon id="service.bazarr"
        name="Bazarr"
-       version="9.0.1"
+       version="9.0.2"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -867,13 +867,16 @@ WebGrab+Plus (2.1.5_beta) collects tv-program guide data from selected tvguide s
   <extension point="xbmc.addon.metadata">
     <summary>Bazarr: subtitles for Sonarr and Radarr</summary>
     <description>
-Bazarr (0.6.9.1) is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movies and Bazarr takes care of everything for you. 
+Bazarr (0.7.0) is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movies and Bazarr takes care of everything for you. 
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+2
+- Update to 0.7.0
+
 1
 - Initial add-on
     </news>
