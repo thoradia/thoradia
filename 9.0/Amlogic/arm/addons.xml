@@ -171,7 +171,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sonarr"
        name="Sonarr"
-       version="9.0.26"
+       version="9.0.27"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -184,13 +184,18 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Sonarr: a PVR for Usenet and BitTorrent users</summary>
     <description>
-Sonarr (2.0.0.5252) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+Sonarr (2.0.0.5301) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+27
+- Update to 2.0.0.5301
+- Start after Kodi and Mono
+- Cosmetic changes
+
 26
 - Update to 2.0.0.5252
 
@@ -280,7 +285,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.jackett"
        name="Jackett"
-       version="9.0.33"
+       version="9.0.34"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -293,13 +298,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Jackett: proxy to tracker sites</summary>
     <description>
-Jackett (0.10.566) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
+Jackett (0.10.657) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+
+34
+- Update to 0.10.657
+- Start after Kodi and Mono
+- Cosmetic changes
+
 33
 - Update to 0.10.566
 
@@ -492,7 +503,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.lidarr"
        name="Lidarr"
-       version="9.0.6"
+       version="9.0.7"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -512,6 +523,10 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+7
+- Start after Kodi and Mono
+- Cosmetic changes
+
 6
 - Update to 0.5.0.583
 
@@ -1373,7 +1388,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.radarr"
        name="Radarr"
-       version="9.0.20"
+       version="9.0.21"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1393,6 +1408,10 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+21
+- Start after Kodi and Mono
+- Cosmetic changes
+
 20
 - Update to 0.2.0.1217
 
