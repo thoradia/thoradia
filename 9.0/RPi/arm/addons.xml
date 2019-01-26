@@ -739,7 +739,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.thoradia"
        name="Thoradia Add-ons"
-       version="9.0.19"
+       version="9.0.20"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -757,13 +757,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Thoradia Add-ons: add-on repository</summary>
     <description>
-Thoradia Add-ons (19) add-on repository, provides aria2, btfs, CouchPotato, Deluge, FlexGet, Headphones, Jackett, Lidarr, Medusa, NZBGet, NZBHydra, qBittorent, Radarr, rTorrent, ruTorrent, SABnzbd, Sonarr and Transmission.
+Thoradia Add-ons (20) add-on repository, provides aria2, Bazarr, btfs, CouchPotato, Deluge, FlexGet, Headphones, Jackett, Lidarr, Medusa, Mono, NZBGet, NZBHydra, qBittorent, Radarr, rTorrent, ruTorrent, SABnzbd, Sonarr, Thoradia VPN interface, Transmission and WebGrab+Plus.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+20
+- Mention Bazarr, Mono, Thoradia VPN interface and WebGrab+Plus
+
 19
 - Add Rockchip
 
