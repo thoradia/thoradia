@@ -1419,7 +1419,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.radarr"
        name="Radarr"
-       version="9.0.21"
+       version="9.0.22"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -1433,13 +1433,17 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Radarr: a fork of Sonarr to work with movies à la CouchPotato</summary>
     <description>
-Radarr (0.2.0.1217) is a fork of Sonarr to work with movies à la CouchPotato.
+Radarr (0.2.0.1293) is a fork of Sonarr to work with movies à la CouchPotato.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+22
+- Update to 0.2.0.1293
+- Restrict memory usage
+
 21
 - Start after Kodi and Mono
 - Cosmetic changes
