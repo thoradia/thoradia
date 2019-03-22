@@ -171,7 +171,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sonarr"
        name="Sonarr"
-       version="9.1.27"
+       version="9.1.28"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -184,13 +184,17 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Sonarr: a PVR for Usenet and BitTorrent users</summary>
     <description>
-Sonarr (2.0.0.5301) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+Sonarr (2.0.0.5319) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+28
+- Update to 2.0.0.5319
+- Restrict memory usage
+
 27
 - Update to 2.0.0.5301
 - Start after Kodi and Mono
@@ -893,7 +897,7 @@ WebGrab+Plus (2.1.5_beta) collects tv-program guide data from selected tvguide s
 </addon>
 <addon id="service.bazarr"
        name="Bazarr"
-       version="9.1.5"
+       version="9.1.6"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -905,13 +909,16 @@ WebGrab+Plus (2.1.5_beta) collects tv-program guide data from selected tvguide s
   <extension point="xbmc.addon.metadata">
     <summary>Bazarr: subtitles for Sonarr and Radarr</summary>
     <description>
-Bazarr (0.7.2) is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movies and Bazarr takes care of everything for you. 
+Bazarr (0.7.2.1) is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movies and Bazarr takes care of everything for you. 
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+6
+- Update to 0.7.2.1
+
 5
 - Update to 0.7.2
 
@@ -1023,7 +1030,7 @@ Keep it legal and carry on
 </addon>
 <addon id="tools.mono"
        name="Mono"
-       version="9.1.112"
+       version="9.1.113"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1035,13 +1042,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Mono: a cross platform, open source .NET framework</summary>
     <description>
-Mono (5.14.0.177) is a software platform designed to allow developers to easily create cross platform applications part of the .NET Foundation
+Mono (5.18.1.0) is a software platform designed to allow developers to easily create cross platform applications part of the .NET Foundation
     </description>
     <disclaimer>
 
     </disclaimer>
     <platform>all</platform>
     <news>
+113
+- Update to 5.18.1.0
+
 112
 - Update to 5.14.0.177
 - Build libgdiplus static
@@ -1643,7 +1653,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sabnzbd"
        name="SABnzbd"
-       version="9.1.33"
+       version="9.1.34"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1656,13 +1666,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>SABnzbd: free and easy binary newsreader</summary>
     <description>
-SABnzbd (2.3.7) is a program to download binary files from Usenet servers.
+SABnzbd (2.3.8) is a program to download binary files from Usenet servers.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+34
+- Update to 2.3.8
+
 33
 - Update to 2.3.7
 
