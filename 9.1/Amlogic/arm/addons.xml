@@ -676,7 +676,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.nzbget"
        name="NZBGet"
-       version="9.1.15"
+       version="9.1.16"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -688,13 +688,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>NZBGet: efficient Usenet downloader</summary>
     <description>
-NZBGet (20.0) is an efficient Usenet downloader.
+NZBGet (21.0) is an efficient Usenet downloader.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+16
+- Update to 21.0
+
 15
 - Update to 20.0
 
@@ -900,7 +903,7 @@ WebGrab+Plus (2.1.5_beta) collects tv-program guide data from selected tvguide s
 </addon>
 <addon id="service.bazarr"
        name="Bazarr"
-       version="9.1.6"
+       version="9.1.7"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -912,13 +915,16 @@ WebGrab+Plus (2.1.5_beta) collects tv-program guide data from selected tvguide s
   <extension point="xbmc.addon.metadata">
     <summary>Bazarr: subtitles for Sonarr and Radarr</summary>
     <description>
-Bazarr (0.7.2.1) is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movies and Bazarr takes care of everything for you. 
+Bazarr (0.7.3) is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movies and Bazarr takes care of everything for you. 
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+7
+- Update to 0.7.3
+
 6
 - Update to 0.7.2.1
 
