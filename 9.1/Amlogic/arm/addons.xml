@@ -1624,7 +1624,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.flexget"
        name="FlexGet"
-       version="9.1.10"
+       version="9.1.11"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1643,6 +1643,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+11
+- Fix package
+
 10
 - Add deluge-client
 
