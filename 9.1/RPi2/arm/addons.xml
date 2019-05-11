@@ -119,7 +119,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.rutorrent"
        name="ruTorrent"
-       version="9.1.8"
+       version="9.1.9"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.1"/>
@@ -133,13 +133,17 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>ruTorrent: web front-end for rTorrent</summary>
     <description>
-ruTorrent (3.8) is a web front-end for rtorrent designed to emulate the look and feel of µTorrent web user interface.
+ruTorrent (3.9) is a web front-end for rtorrent designed to emulate the look and feel of µTorrent web user interface.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+9
+- Update to 3.9
+- Update php to 7.3.5
+
 8
 - Update php to 7.2.5
 
@@ -173,7 +177,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sonarr"
        name="Sonarr"
-       version="9.1.29"
+       version="9.1.30"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.1"/>
@@ -194,6 +198,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+30
+- Remove MemoryMax (enable swap yourself)
+
 29
 - Update to 2.0.0.5322
 
@@ -295,7 +302,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.jackett"
        name="Jackett"
-       version="9.1.37"
+       version="9.1.38"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.1"/>
@@ -309,13 +316,17 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Jackett: proxy to tracker sites</summary>
     <description>
-Jackett (0.11.36) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
+Jackett (0.11.295) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+38
+- Update to 0.11.295
+- Remove MemoryMax (enable swap yourself)
+
 37
 - Update to 0.11.36
 - Revert to Mono
@@ -581,7 +592,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.qbittorrent"
        name="qBittorrent"
-       version="9.1.20"
+       version="9.1.21"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.1"/>
@@ -594,13 +605,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>qBittorrent: efficient feature complete C++ bittorrent implementation</summary>
     <description>
-qBittorrent (4.1.5) is an efficient feature complete C++ bittorrent implementation.
+qBittorrent (4.1.6) is an efficient feature complete C++ bittorrent implementation.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+21
+- Update to 4.1.6
+- Update boost to 1.70.0
+- Update libtorrent-rasterbar to 1.1.13
+- Update qt-everywehere to 5.12.3
+
 20
 - Update boost to 1.69.0
 - Update libtorrent-rasterbar to 1.1.12
@@ -684,7 +701,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.nzbget"
        name="NZBGet"
-       version="9.1.15"
+       version="9.1.16"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.1"/>
@@ -697,13 +714,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>NZBGet: efficient Usenet downloader</summary>
     <description>
-NZBGet (20.0) is an efficient Usenet downloader.
+NZBGet (21.0) is an efficient Usenet downloader.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+16
+- Update to 21.0
+
 15
 - Update to 20.0
 
@@ -854,7 +874,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.webgrabplus"
        name="WebGrab+Plus"
-       version="9.1.106"
+       version="9.1.107"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.1"/>
@@ -868,13 +888,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>WebGrab+Plus: a multi-site incremental xmltv epg grabber</summary>
     <description>
-WebGrab+Plus (2.1.5_beta) collects tv-program guide data from selected tvguide sites for your favourite channels.
+WebGrab+Plus (2.1.9_beta) collects tv-program guide data from selected tvguide sites for your favourite channels.
     </description>
     <disclaimer>
 
     </disclaimer>
     <platform>all</platform>
     <news>
+107
+- Update to 2.1.9_beta
+
 105
 - Upgrade WebGrab!Plus to 2.1.5_beta
 
@@ -907,7 +930,7 @@ WebGrab+Plus (2.1.5_beta) collects tv-program guide data from selected tvguide s
 </addon>
 <addon id="service.bazarr"
        name="Bazarr"
-       version="9.1.6"
+       version="9.1.8"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.1"/>
@@ -920,13 +943,19 @@ WebGrab+Plus (2.1.5_beta) collects tv-program guide data from selected tvguide s
   <extension point="xbmc.addon.metadata">
     <summary>Bazarr: subtitles for Sonarr and Radarr</summary>
     <description>
-Bazarr (0.7.2.1) is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movies and Bazarr takes care of everything for you. 
+Bazarr (0.7.4) is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movies and Bazarr takes care of everything for you. 
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+8
+- Update to 0.7.4
+
+7
+- Update to 0.7.3
+
 6
 - Update to 0.7.2.1
 
@@ -1445,7 +1474,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.radarr"
        name="Radarr"
-       version="9.1.22"
+       version="9.1.23"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.1"/>
@@ -1459,13 +1488,17 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Radarr: a fork of Sonarr to work with movies à la CouchPotato</summary>
     <description>
-Radarr (0.2.0.1293) is a fork of Sonarr to work with movies à la CouchPotato.
+Radarr (0.2.0.1344) is a fork of Sonarr to work with movies à la CouchPotato.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+23
+- Update to 0.2.0.1344
+- Remove MemoryMax (enable swap yourself)
+
 22
 - Update to 0.2.0.1293
 - Restrict memory usage
@@ -1613,7 +1646,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.flexget"
        name="FlexGet"
-       version="9.1.10"
+       version="9.1.11"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.1"/>
@@ -1633,6 +1666,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+11
+- Fix package
+
 10
 - Add deluge-client
 
