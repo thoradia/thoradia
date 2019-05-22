@@ -1007,7 +1007,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.rtorrent"
        name="rTorrent"
-       version="9.1.8"
+       version="9.1.9"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1026,6 +1026,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+9
+- Rebuild
+
 8
 - Rebuild
 
