@@ -3,7 +3,7 @@
 
 <addon id="service.deluge"
        name="Deluge"
-       version="9.1.26"
+       version="9.1.28"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -15,13 +15,21 @@
   <extension point="xbmc.addon.metadata">
     <summary>Deluge: lightweight, free software, cross-platform BitTorrent client</summary>
     <description>
-Deluge (1.3.15) is a lightweight, free software, cross-platform BitTorrent client.
+Deluge (2.0.3) is a lightweight, free software, cross-platform BitTorrent client.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+27
+- Update to 2.0.3
+
+27
+- Update to 2.0.2
+- Update libtorrent-rasterbar to 1.2.1
+- Start after Kodi
+
 26
 - Update Python dependencies
 - Update libtorrent-rasterbar to 1.1.11
@@ -929,7 +937,7 @@ WebGrab+Plus (2.1.9_beta) collects tv-program guide data from selected tvguide s
 </addon>
 <addon id="service.bazarr"
        name="Bazarr"
-       version="9.1.8"
+       version="9.1.10"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -941,13 +949,19 @@ WebGrab+Plus (2.1.9_beta) collects tv-program guide data from selected tvguide s
   <extension point="xbmc.addon.metadata">
     <summary>Bazarr: subtitles for Sonarr and Radarr</summary>
     <description>
-Bazarr (0.7.4) is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movies and Bazarr takes care of everything for you. 
+Bazarr (0.7.5.1) is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movies and Bazarr takes care of everything for you. 
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+10
+- Update to 0.7.5.1
+
+9
+- Update to 0.7.5
+
 8
 - Update to 0.7.4
 
