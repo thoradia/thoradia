@@ -3,7 +3,7 @@
 
 <addon id="service.deluge"
        name="Deluge"
-       version="9.0.27"
+       version="9.0.28"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -16,13 +16,16 @@
   <extension point="xbmc.addon.metadata">
     <summary>Deluge: lightweight, free software, cross-platform BitTorrent client</summary>
     <description>
-Deluge (2.0.2) is a lightweight, free software, cross-platform BitTorrent client.
+Deluge (2.0.3) is a lightweight, free software, cross-platform BitTorrent client.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+27
+- Update to 2.0.3
+
 27
 - Update to 2.0.2
 - Update libtorrent-rasterbar to 1.2.1
