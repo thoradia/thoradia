@@ -906,7 +906,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.webgrabplus"
        name="WebGrab+Plus"
-       version="9.1.901.108"
+       version="9.1.901.109"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.1"/>
@@ -927,6 +927,9 @@ WebGrab+Plus (2.1.10_beta) collects tv-program guide data from selected tvguide 
     </disclaimer>
     <platform>all</platform>
     <news>
+109
+- Allow disabling --on-active setting
+
 108
 - Update to 2.1.10_beta
 
