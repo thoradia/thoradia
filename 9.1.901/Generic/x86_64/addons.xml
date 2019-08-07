@@ -130,7 +130,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.rutorrent"
        name="ruTorrent"
-       version="9.1.901.9"
+       version="9.1.901.10"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.1"/>
@@ -144,13 +144,17 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>ruTorrent: web front-end for rTorrent</summary>
     <description>
-ruTorrent (3.9) is a web front-end for rtorrent designed to emulate the look and feel of µTorrent web user interface.
+ruTorrent (3.10-beta) is a web front-end for rtorrent designed to emulate the look and feel of µTorrent web user interface.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+10
+- Update to 3.10-beta
+- Update php to 7.3.8
+
 9
 - Update to 3.9
 - Update php to 7.3.5
@@ -1060,7 +1064,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.rtorrent"
        name="rTorrent"
-       version="9.1.901.9"
+       version="9.1.901.10"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.1"/>
@@ -1073,13 +1077,18 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>rTorrent: quick and efficient BitTorrent client</summary>
     <description>
-rTorrent (0.9.7) is a quick and efficient BitTorrent client.
+rTorrent (0.9.8) is a quick and efficient BitTorrent client.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+10
+- Update to 0.9.8
+- Update libtorrent to 1.13.8
+- Update xmlrpc-c to 1.51.03
+
 9
 - Rebuild
 
