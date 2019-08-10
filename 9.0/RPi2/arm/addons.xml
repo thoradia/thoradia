@@ -3,7 +3,7 @@
 
 <addon id="service.deluge"
        name="Deluge"
-       version="9.0.28"
+       version="9.0.29"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -23,7 +23,10 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
-27
+29
+- Provide libtorrent-rasterbar
+
+28
 - Update to 2.0.3
 
 27
@@ -606,7 +609,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.qbittorrent"
        name="qBittorrent"
-       version="9.0.21"
+       version="9.0.23"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -619,13 +622,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>qBittorrent: efficient feature complete C++ bittorrent implementation</summary>
     <description>
-qBittorrent (4.1.6) is an efficient feature complete C++ bittorrent implementation.
+qBittorrent (4.1.7) is an efficient feature complete C++ bittorrent implementation.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+23
+- Update to 4.1.7
+
+22
+- Update qt-everywehere to 5.13.0
+
 21
 - Update to 4.1.6
 - Update boost to 1.70.0
@@ -888,7 +897,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.webgrabplus"
        name="WebGrab+Plus"
-       version="9.0.107"
+       version="9.0.109"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.0"/>
@@ -902,13 +911,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>WebGrab+Plus: a multi-site incremental xmltv epg grabber</summary>
     <description>
-WebGrab+Plus (2.1.9_beta) collects tv-program guide data from selected tvguide sites for your favourite channels.
+WebGrab+Plus (2.1.10_beta) collects tv-program guide data from selected tvguide sites for your favourite channels.
     </description>
     <disclaimer>
 
     </disclaimer>
     <platform>all</platform>
     <news>
+109
+- Allow disabling --on-active setting
+
+108
+- Update to 2.1.10_beta
+
 107
 - Update to 2.1.9_beta
 
