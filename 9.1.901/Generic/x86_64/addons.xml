@@ -1674,7 +1674,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.aria2"
        name="aria2"
-       version="9.1.901.3"
+       version="9.1.901.4"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.1"/>
@@ -1694,6 +1694,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+4
+- Enable sftp
+
 3
 - Update to 1.34.0
 
