@@ -1131,7 +1131,7 @@ Keep it legal and carry on
 </addon>
 <addon id="tools.mono"
        name="Mono"
-       version="9.1.901.113"
+       version="9.1.901.114"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.1"/>
@@ -1144,13 +1144,17 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Mono: a cross platform, open source .NET framework</summary>
     <description>
-Mono (5.18.1.0) is a software platform designed to allow developers to easily create cross platform applications part of the .NET Foundation
+Mono (6.0.0.319) is a software platform designed to allow developers to easily create cross platform applications part of the .NET Foundation
     </description>
     <disclaimer>
 
     </disclaimer>
     <platform>all</platform>
     <news>
+114
+- Update to 6.0.0.319
+- Update libgdiplus to 6.0.2
+
 113
 - Update to 5.18.1.0
 
