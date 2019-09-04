@@ -3,7 +3,7 @@
 
 <addon id="service.deluge"
        name="Deluge"
-       version="9.1.29"
+       version="9.1.30"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -22,6 +22,9 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+30
+- Force versions of setuptools and wheel
+
 29
 - Provide libtorrent-rasterbar
 
@@ -129,7 +132,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.rutorrent"
        name="ruTorrent"
-       version="9.1.9"
+       version="9.1.10"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -142,13 +145,17 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>ruTorrent: web front-end for rTorrent</summary>
     <description>
-ruTorrent (3.9) is a web front-end for rtorrent designed to emulate the look and feel of µTorrent web user interface.
+ruTorrent (3.10-beta) is a web front-end for rtorrent designed to emulate the look and feel of µTorrent web user interface.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+10
+- Update to 3.10-beta
+- Update php to 7.3.8
+
 9
 - Update to 3.9
 - Update php to 7.3.5
@@ -186,7 +193,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.sonarr"
        name="Sonarr"
-       version="9.1.30"
+       version="9.1.32"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -199,13 +206,20 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Sonarr: a PVR for Usenet and BitTorrent users</summary>
     <description>
-Sonarr (2.0.0.5322) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+Sonarr (3.0.3.616) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+32
+- Update to 3.0.3.616
+- Fix certificate verification
+
+31
+- Update to 3.0.2.565
+
 30
 - Remove MemoryMax (enable swap yourself)
 
@@ -611,7 +625,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.qbittorrent"
        name="qBittorrent"
-       version="9.1.21"
+       version="9.1.23"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -623,13 +637,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>qBittorrent: efficient feature complete C++ bittorrent implementation</summary>
     <description>
-qBittorrent (4.1.6) is an efficient feature complete C++ bittorrent implementation.
+qBittorrent (4.1.7) is an efficient feature complete C++ bittorrent implementation.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+23
+- Update to 4.1.7
+
+22
+- Update qt-everywehere to 5.13.0
+
 21
 - Update to 4.1.6
 - Update boost to 1.70.0
@@ -894,7 +914,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.webgrabplus"
        name="WebGrab+Plus"
-       version="9.1.107"
+       version="9.1.109"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -907,13 +927,19 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>WebGrab+Plus: a multi-site incremental xmltv epg grabber</summary>
     <description>
-WebGrab+Plus (2.1.9_beta) collects tv-program guide data from selected tvguide sites for your favourite channels.
+WebGrab+Plus (2.1.10_beta) collects tv-program guide data from selected tvguide sites for your favourite channels.
     </description>
     <disclaimer>
 
     </disclaimer>
     <platform>all</platform>
     <news>
+109
+- Allow disabling --on-active setting
+
+108
+- Update to 2.1.10_beta
+
 107
 - Update to 2.1.9_beta
 
@@ -1039,7 +1065,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.rtorrent"
        name="rTorrent"
-       version="9.1.9"
+       version="9.1.10"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1051,13 +1077,18 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>rTorrent: quick and efficient BitTorrent client</summary>
     <description>
-rTorrent (0.9.7) is a quick and efficient BitTorrent client.
+rTorrent (0.9.8) is a quick and efficient BitTorrent client.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+10
+- Update to 0.9.8
+- Update libtorrent to 1.13.8
+- Update xmlrpc-c to 1.51.03
+
 9
 - Rebuild
 
@@ -1097,7 +1128,7 @@ Keep it legal and carry on
 </addon>
 <addon id="tools.mono"
        name="Mono"
-       version="9.1.113"
+       version="9.1.114"
        provider-name="thoradia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1109,13 +1140,17 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>Mono: a cross platform, open source .NET framework</summary>
     <description>
-Mono (5.18.1.0) is a software platform designed to allow developers to easily create cross platform applications part of the .NET Foundation
+Mono (6.0.0.319) is a software platform designed to allow developers to easily create cross platform applications part of the .NET Foundation
     </description>
     <disclaimer>
 
     </disclaimer>
     <platform>all</platform>
     <news>
+114
+- Update to 6.0.0.319
+- Update libgdiplus to 6.0.2
+
 113
 - Update to 5.18.1.0
 
