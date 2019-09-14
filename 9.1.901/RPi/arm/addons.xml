@@ -920,7 +920,7 @@ Keep it legal and carry on
 </addon>
 <addon id="service.webgrabplus"
        name="WebGrab+Plus"
-       version="9.1.901.109"
+       version="9.1.901.110"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.1"/>
@@ -934,13 +934,16 @@ Keep it legal and carry on
   <extension point="xbmc.addon.metadata">
     <summary>WebGrab+Plus: a multi-site incremental xmltv epg grabber</summary>
     <description>
-WebGrab+Plus (2.1.10_beta) collects tv-program guide data from selected tvguide sites for your favourite channels.
+WebGrab+Plus (2.1.11_beta) collects tv-program guide data from selected tvguide sites for your favourite channels.
     </description>
     <disclaimer>
 
     </disclaimer>
     <platform>all</platform>
     <news>
+110
+- Update to 2.1.11_beta
+
 109
 - Allow disabling --on-active setting
 
