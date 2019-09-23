@@ -819,7 +819,7 @@ Keep it legal and carry on
        version="9.2.23"
        provider-name="thoradia">
   <requires>
-    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="os.libreelec.tv" version="9.2"/>
     <import addon="xbmc.python" version="2.1.0"/>
 
   </requires>
