@@ -1,6 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="service.aria2"
+       name="aria2"
+       version="9.1.901.4"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
 
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>aria2: the next generation download utility</summary>
+    <description>
+aria2 (1.34.0) is a lightweight multi-protocol and multi-source command-line download utility, which supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink, and can be manipulated via built-in JSON-RPC and XML-RPC interfaces.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+4
+- Enable sftp
+
+3
+- Update to 1.34.0
+
+2
+- Rework system.d
+
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.bazarr"
+       name="Bazarr"
+       version="9.1.901.11"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Bazarr: subtitles for Sonarr and Radarr</summary>
+    <description>
+Bazarr (0.8.1) is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movies and Bazarr takes care of everything for you. 
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+11
+- Update to 0.8.1
+
+10
+- Update to 0.7.5.1
+
+9
+- Update to 0.7.5
+
+8
+- Update to 0.7.4
+
+7
+- Update to 0.7.3
+
+6
+- Update to 0.7.2.1
+
+5
+- Update to 0.7.2
+
+4
+- Update to 0.7.1
+
+3
+- Update to 0.7.0.5
+- Start after Kodi
+
+2
+- Update to 0.7.0
+
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.couchpotato"
+       name="CouchPotato"
+       version="9.1.901.22"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>CouchPotato: automatic movie downloading via Usenet and BitTorrent</summary>
+    <description>
+CouchPotato (12ca4c22680961346e0aa2617941bf1a7252fc67) downloads movies automatically, easily and in the best quality as soon as they are available.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+22
+- Update to 12ca4c2
+
+21
+- Fix nice
+- Rework Python
+
+20
+- Rebuild
+
+19
+- Update Python dependencies
+
+18
+- Update Python dependencies
+
+17
+- Update to 0a97ed5
+
+16
+- Update to 05b7cab
+
+15
+- Rebuild
+
+14
+- Update to ec42591
+
+13
+- Add priority setting
+
+12
+- Update python dependencies
+
+11
+- Update to 711310d
+
+10
+- Service after/requires multi-user.target network-online.target
+
+9
+- Remove strip_lto
+
+8
+- Reinstate *.pyo files, required for LXML and SSL
+
+7
+- Remove *.pyo files to prevent segfaults on aarch64
+
+6
+- Update python dependencies
+
+5
+- Update to b538f9a
+
+4
+- Rebuild
+
+3
+- Update to 405779047035723bd015fdd51b19379884f53b36
+
+2
+- Remove add-on repository
+
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.deluge"
        name="Deluge"
        version="9.1.901.30"
@@ -125,202 +318,163 @@ Keep it legal and carry on
 - Initial add-on
     </news>
     <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
 
     </assets>
   </extension>
 </addon>
-<addon id="service.rutorrent"
-       name="ruTorrent"
-       version="9.1.901.10"
+<addon id="service.flexget"
+       name="FlexGet"
+       version="9.1.901.11"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.1"/>
     <import addon="xbmc.python" version="2.1.0"/>
 
-    <import addon="service.rtorrent" version="0.0.0" />
   </requires>
   <extension point="xbmc.service" library="default.py">
     <provides></provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>ruTorrent: web front-end for rTorrent</summary>
+    <summary>FlexGet: automate downloading or processing content from different sources</summary>
     <description>
-ruTorrent (3.10-beta) is a web front-end for rtorrent designed to emulate the look and feel of µTorrent web user interface.
+FlexGet (2.17.22) is a program aimed to automate downloading or processing content (torrents, podcasts, etc.) from different sources like RSS-feeds, html-pages, various sites and more.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+11
+- Fix package
+
 10
-- Update to 3.10-beta
-- Update php to 7.3.8
+- Add deluge-client
 
 9
-- Update to 3.9
-- Update php to 7.3.5
+- Update to 2.17.22
 
 8
-- Update php to 7.2.5
+- Update to 2.14.17
+- Add python-telegram-bot
 
 7
-- Update php to 7.1.11
+- Update to 2.13.0
 
 6
-- Update php to 7.1.9
+- Update to 2.12.10
 
 5
-- Build against static libcurl 7.54.0
+- Update to 2.12.7
+- Add deluge
+- Add mechanize
+- Fix flexget.ctl
 
 4
-- Update to 3.8
+- Update to 2.11.9
+- Add transmissionrpc
 
 3
-- Add mediainfo and unrar
+- Update to 2.11.6
+- Rework Python
 
 2
-- Fix description
+- Fix default config.yml
 
 1
 - Initial add-on
     </news>
     <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
 
     </assets>
   </extension>
 </addon>
-<addon id="service.sonarr"
-       name="Sonarr"
-       version="9.1.901.32"
+<addon id="service.headphones"
+       name="Headphones"
+       version="9.1.901.20"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.1"/>
     <import addon="xbmc.python" version="2.1.0"/>
 
-    <import addon="virtual.thoradia-mono" version="0.0.0" />
   </requires>
   <extension point="xbmc.service" library="default.py">
     <provides></provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Sonarr: a PVR for Usenet and BitTorrent users</summary>
+    <summary>Headphones: automated music downloader for NZB and Torrent</summary>
     <description>
-Sonarr (3.0.3.616) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+Headphones (b45f3565da1759485b632493f295bab900df1e7e) is an automated music downloader for NZB and Torrent. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
-32
-- Update to 3.0.3.616
-- Fix certificate verification
-
-31
-- Update to 3.0.2.565
-
-30
-- Remove MemoryMax (enable swap yourself)
-
-29
-- Update to 2.0.0.5322
-
-28
-- Update to 2.0.0.5319
-- Restrict memory usage
-
-27
-- Update to 2.0.0.5301
-- Start after Kodi and Mono
-- Cosmetic changes
-
-26
-- Update to 2.0.0.5252
-
-25
-- Update to 2.0.0.5153
-
-24
-- Update to 2.0.0.5085
-
-23
-- Update to 2.0.0.5054
-
-22
-- Update to 2.0.0.4949
-
-21
-- Update to 2.0.0.4855
-
 20
-- Rebuild
+- Update to b45f356
 
 19
-- Fix priority setting
+- Add port to settings
+- Fix nice
+- Rework Python
 
 18
-- Fix priority setting
+- Copy python_common in lib
 
 17
-- Add priority setting
-
-16
-- Update to 2.0.0.4753
-
-15
-- Move thoradia-libmediainfo to virtual.thoradia-mono
-
-14
-- Update to 2.0.0.4689
-- Update thoradia-libmediainfo to 0.7.94
-
-13
-- Update to 2.0.0.4645
-
-12
-- Update to 2.0.0.4613
-
-11
-- Service after/requires multi-user.target network-online.target
-
-10
-- Update to 2.0.0.4472
-
-9
-- Update to version 2.0.0.4427
-
-8
 - Rebuild
 
+16
+- Update to da9287d
+- Update Python dependencies
+
+15
+- Update Python dependencies
+
+14
+- Update to 0c98085
+
+13
+- Rebuild
+
+12
+- Fix priority setting
+
+11
+- Fix priority setting
+
+10
+- Update to 8e1cd31
+- Add priority setting
+
+9
+- Update Python dependencies
+
+8
+- Service after/requires multi-user.target network-online.target
+
 7
-- Update to version 2.0.0.4409
+- Remove strip_lto
 
 6
-- Remove add-on repository
+- Add and update python dependencies
 
 5
-- Update to version 2.0.0.4389
+- Update to 0.5.18
 
 4
-- Update to version 2.0.0.4374
-- Edit disclaimer
+- Update to 0.5.17
 
 3
-- Move data to add-on home
+- Remove add-on repository
 
 2
-- Update to version 2.0.0.4370
+- Add PyOpenSSL
 
 1
 - Initial add-on
     </news>
     <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
 
     </assets>
   </extension>
@@ -483,94 +637,6 @@ Keep it legal and carry on
 - Initial add-on
     </news>
     <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
-
-    </assets>
-  </extension>
-</addon>
-<addon id="service.nzbhydra"
-       name="NZBHydra"
-       version="9.1.901.2"
-       provider-name="thoradia">
-  <requires>
-    <import addon="os.libreelec.tv" version="9.1"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>NZBHydra: meta search for NZB indexers </summary>
-    <description>
-NZBHydra (0.2.233) is a meta search for NZB indexers. It provides easy access to a number of raw and newznab based indexers. You can search all your indexers from one place and use it as indexer source for tools like Sonarr or CouchPotato.
-    </description>
-    <disclaimer>
-Keep it legal and carry on
-    </disclaimer>
-    <platform>all</platform>
-    <news>
-2
-- Update to 0.2.233
-
-1
-- Initial add-on
-    </news>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
-
-    </assets>
-  </extension>
-</addon>
-<addon id="service.medusa"
-       name="Medusa"
-       version="9.1.901.6"
-       provider-name="thoradia">
-  <requires>
-    <import addon="os.libreelec.tv" version="9.1"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-    <import addon="service.locale" version="0.0.0" />
-    <import addon="tools.ffmpeg-tools" version="0.0.0" />
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Medusa: automatic video library manager for TV shows</summary>
-    <description>
-Medusa (0.3.4) watches for new episodes of your favorite shows, and when they are posted it does its magic.
-    </description>
-    <disclaimer>
-Keep it legal and carry on
-    </disclaimer>
-    <platform>all</platform>
-    <news>
-6
-- Update to 0.3.4
-
-5
-- Update to 0.2.13
-- Medusa requires FFmpeg
-
-4
-- Update to 0.2.1
-
-3
-- Update to 0.2.0
-
-2
-- Update to 0.1.20
-- Medusa requires Locale
-
-1
-- Initial add-on
-    </news>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
 
     </assets>
   </extension>
@@ -624,8 +690,164 @@ Keep it legal and carry on
 - Initial add-on
     </news>
     <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.medusa"
+       name="Medusa"
+       version="9.1.901.6"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="service.locale" version="0.0.0" />
+    <import addon="tools.ffmpeg-tools" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Medusa: automatic video library manager for TV shows</summary>
+    <description>
+Medusa (0.3.4) watches for new episodes of your favorite shows, and when they are posted it does its magic.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+6
+- Update to 0.3.4
+
+5
+- Update to 0.2.13
+- Medusa requires FFmpeg
+
+4
+- Update to 0.2.1
+
+3
+- Update to 0.2.0
+
+2
+- Update to 0.1.20
+- Medusa requires Locale
+
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.nzbget"
+       name="NZBGet"
+       version="9.1.901.16"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>NZBGet: efficient Usenet downloader</summary>
+    <description>
+NZBGet (21.0) is an efficient Usenet downloader.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+16
+- Update to 21.0
+
+15
+- Update to 20.0
+
+14
+- Rebuild
+
+13
+- Update to 19.1
+
+12
+- Update to 19.0
+
+11
+- Add priority setting
+
+10
+- Rebuild
+
+9
+- Update to 18.1
+
+8
+- Update to 18.0
+
+7
+- Service after/requires multi-user.target network-online.target
+
+6
+- Rebuild
+
+5:
+- Remove add-on repository
+
+4
+- Add p7zip
+- Set MainDir to add-on home
+
+3
+- Add unrar
+
+2
+- Edit disclaimer
+
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.nzbhydra"
+       name="NZBHydra"
+       version="9.1.901.2"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>NZBHydra: meta search for NZB indexers </summary>
+    <description>
+NZBHydra (0.2.233) is a meta search for NZB indexers. It provides easy access to a number of raw and newznab based indexers. You can search all your indexers from one place and use it as indexer source for tools like Sonarr or CouchPotato.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+2
+- Update to 0.2.233
+
+1
+- Initial add-on
+    </news>
+    <assets>
 
     </assets>
   </extension>
@@ -739,15 +961,13 @@ Keep it legal and carry on
 - Initial add-on
     </news>
     <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
 
     </assets>
   </extension>
 </addon>
-<addon id="service.nzbget"
-       name="NZBGet"
-       version="9.1.901.16"
+<addon id="service.qbittorrent"
+       name="qBittorrent"
+       version="9.1.901.24"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.1"/>
@@ -758,805 +978,105 @@ Keep it legal and carry on
     <provides></provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>NZBGet: efficient Usenet downloader</summary>
+    <summary>qBittorrent: efficient feature complete C++ bittorrent implementation</summary>
     <description>
-NZBGet (21.0) is an efficient Usenet downloader.
+qBittorrent (4.1.8) is an efficient feature complete C++ bittorrent implementation.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
-16
-- Update to 21.0
+24
+- Update to 4.1.8
 
-15
-- Update to 20.0
-
-14
-- Rebuild
-
-13
-- Update to 19.1
-
-12
-- Update to 19.0
-
-11
-- Add priority setting
-
-10
-- Rebuild
-
-9
-- Update to 18.1
-
-8
-- Update to 18.0
-
-7
-- Service after/requires multi-user.target network-online.target
-
-6
-- Rebuild
-
-5:
-- Remove add-on repository
-
-4
-- Add p7zip
-- Set MainDir to add-on home
-
-3
-- Add unrar
-
-2
-- Edit disclaimer
-
-1
-- Initial add-on
-    </news>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
-
-    </assets>
-  </extension>
-</addon>
-<addon id="service.thoradia"
-       name="Thoradia Add-ons"
-       version="9.1.901.23"
-       provider-name="thoradia">
-  <requires>
-    <import addon="os.libreelec.tv" version="9.1"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.repository">
-    <datadir zip="true">https://raw.githubusercontent.com/thoradia/thoradia/master/9.1.901/RK3328/arm/</datadir>
-    <info>https://raw.githubusercontent.com/thoradia/thoradia/master/9.1.901/RK3328/arm/addons.xml</info>
-    <checksum>https://raw.githubusercontent.com/thoradia/thoradia/master/9.1.901/RK3328/arm/addons.xml.md5</checksum>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Thoradia Add-ons: add-on repository</summary>
-    <description>
-Thoradia Add-ons (23) add-on repository, provides aria2, Bazarr, btfs, CouchPotato, Deluge, FlexGet, Headphones, Jackett, Lidarr, Medusa, Mono, NZBGet, NZBHydra, qBittorent, Radarr, rTorrent, ruTorrent, SABnzbd, Sonarr, Thoradia VPN interface, Transmission and WebGrab+Plus.
-    </description>
-    <disclaimer>
-Keep it legal and carry on
-    </disclaimer>
-    <platform>all</platform>
-    <news>
 23
-- Rework
+- Update to 4.1.7
 
 22
-- Add CoreELEC cenightly repository
+- Update qt-everywehere to 5.13.0
 
 21
-- Fix for CoreELEC ADDON_VERSION 9.0.1
+- Update to 4.1.6
+- Update boost to 1.70.0
+- Update libtorrent-rasterbar to 1.1.13
+- Update qt-everywehere to 5.12.3
 
 20
-- Mention Bazarr, Mono, Thoradia VPN interface and WebGrab+Plus
+- Update boost to 1.69.0
+- Update libtorrent-rasterbar to 1.1.12
 
 19
-- Add Rockchip
+- Update to 4.1.5
 
 18
-- Rework default.py
+- Update libtorrent-rasterbar to 1.1.11
+- Update qt-everywehere to 5.12.0
 
 17
-- Add btfs and Lidarr
+- Update to 4.1.3
+- Update qt-everywehere to 5.11.2
 
 16
-- Add FlexGet
+- Update to 4.1.2
+- Update libtorrent-rasterbar to 1.1.9
 
 15
-- Add NZBHydra
+- Update libtorrent-rasterbar to 1.1.8
+- Update qt-everywehere to 5.11.1
 
 14
-- Support repository.rbrepo
+- Update to 4.1.1
 
 13
-- Add aria2
+- Update t0 4.1.0
+- Update libtorrent-rasterbar to 1.1.7
 
 12
-- Support S805
+- Update to 4.0.4
+- Update qt-everywehere to 5.10.1
 
 11
-- Mention Medusa, remove SickRage
+- Update to 4.0.3
+- Update boost to 1.66.0
+- Update libtorrent-rasterbar to 1.1.6
+- Update qt-everywehere to 5.10.0
+- Use own libtorrent-rasterbar
 
 10
-- Support Slice and Slice3
-- Update repositories on LibreELEC update
+- Update libtorrent-rasterbar to 1.1.5
+- Update qt-everywhere to 5.9.2
 
 9
-- Mention rTorrent and ruTorrent
+- Update to 3.3.16
 
 8
-- Rework default.py
+- Update to 3.3.15
 
 7
-- Rework default.py
+- Update to 3.3.14
 
 6
-- Mention qBittorrent
+- Update libtorrent-rasterbar to 1.1.4
+- Update qt-everywhere to 5.9.1
 
 5
-- Rename add-on
+- Fix qbittorrent.start
+- Build against qt-everywhere 5.9.0
 
 4
-- Mention Radarr
+- Update to 3.3.13
 
 3
-- Mention Deluge
-
-2
-- Fix datadir
-
-1
-- Initial add-on
-    </news>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
-
-    </assets>
-  </extension>
-</addon>
-<addon id="service.webgrabplus"
-       name="WebGrab+Plus"
-       version="9.1.901.110"
-       provider-name="thoradia">
-  <requires>
-    <import addon="os.libreelec.tv" version="9.1"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-    <import addon="tools.mono" version="0.0.0" />
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>WebGrab+Plus: a multi-site incremental xmltv epg grabber</summary>
-    <description>
-WebGrab+Plus (2.1.11_beta) collects tv-program guide data from selected tvguide sites for your favourite channels.
-    </description>
-    <disclaimer>
-
-    </disclaimer>
-    <platform>all</platform>
-    <news>
-110
-- Update to 2.1.11_beta
-
-109
-- Allow disabling --on-active setting
-
-108
-- Update to 2.1.10_beta
-
-107
-- Update to 2.1.9_beta
-
-105
-- Upgrade WebGrab!Plus to 2.1.5_beta
-
-104
-- Upgrade siteini.pack to 20161021
-- Add system.d timer
-- Add license headers
-
-103
-- Upgrade mdb ini files
-
-102
-- Upgrade WebGrab+Plus to 56.29.pre
-- Upgrade siteini.pack to 20160807
-- Call user defined pre/post processing
-
-101
-- Upgrade WebGrab+Plus to 56.28.pre
-- Upgrade siteini.pack to 20160729
-
-100
-- Initial addon
-    </news>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
-
-    </assets>
-  </extension>
-</addon>
-<addon id="service.bazarr"
-       name="Bazarr"
-       version="9.1.901.11"
-       provider-name="thoradia">
-  <requires>
-    <import addon="os.libreelec.tv" version="9.1"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Bazarr: subtitles for Sonarr and Radarr</summary>
-    <description>
-Bazarr (0.8.1) is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movies and Bazarr takes care of everything for you. 
-    </description>
-    <disclaimer>
-Keep it legal and carry on
-    </disclaimer>
-    <platform>all</platform>
-    <news>
-11
-- Update to 0.8.1
-
-10
-- Update to 0.7.5.1
-
-9
-- Update to 0.7.5
-
-8
-- Update to 0.7.4
-
-7
-- Update to 0.7.3
-
-6
-- Update to 0.7.2.1
-
-5
-- Update to 0.7.2
-
-4
-- Update to 0.7.1
-
-3
-- Update to 0.7.0.5
-- Start after Kodi
-
-2
-- Update to 0.7.0
-
-1
-- Initial add-on
-    </news>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
-
-    </assets>
-  </extension>
-</addon>
-<addon id="service.thoradia-vpn"
-       name="Thoradia VPN Network Interface"
-       version="9.1.901.1"
-       provider-name="thoradia">
-  <requires>
-    <import addon="os.libreelec.tv" version="9.1"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Thoradia VPN Network Interface: a virtual private network interface</summary>
-    <description>
-Thoradia VPN Network Interface (1) provides the thoradia-vpn network interface to which applications can bind. The system continues using unmodified network configuration whereas applications bound to the thoradia-vpn network interface connect to the VPN. Thoradia VPN Network Interface is compatible with VPN Manager for OpenVPN.
-    </description>
-    <disclaimer>
-Keep it legal and carry on
-    </disclaimer>
-    <platform>all</platform>
-    <news>
-1
-- Initial add-on
-    </news>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
-
-    </assets>
-  </extension>
-</addon>
-<addon id="service.rtorrent"
-       name="rTorrent"
-       version="9.1.901.10"
-       provider-name="thoradia">
-  <requires>
-    <import addon="os.libreelec.tv" version="9.1"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>rTorrent: quick and efficient BitTorrent client</summary>
-    <description>
-rTorrent (0.9.8) is a quick and efficient BitTorrent client.
-    </description>
-    <disclaimer>
-Keep it legal and carry on
-    </disclaimer>
-    <platform>all</platform>
-    <news>
-10
-- Update to 0.9.8
-- Update libtorrent to 1.13.8
-- Update xmlrpc-c to 1.51.03
-
-9
-- Rebuild
-
-8
-- Rebuild
-
-7
-- Update to 0.9.7
-- Update libtorrent to 1.13.7
-
-6
-- Rework add-on
-
-5
-- Build against static libcurl 7.54.0
-
-4
-- Bind to 127.0.0.1 rather than to localhost
-
-3
-- Refer to session directory with an absolute path
-
-2
-- Add changelog.txt
-- Fix xmlrpc-c
-- Force scgi_port
-
-1
-- Initial add-on
-    </news>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
-
-    </assets>
-  </extension>
-</addon>
-<addon id="tools.mono"
-       name="Mono"
-       version="9.1.901.114"
-       provider-name="thoradia">
-  <requires>
-    <import addon="os.libreelec.tv" version="9.1"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Mono: a cross platform, open source .NET framework</summary>
-    <description>
-Mono (6.0.0.319) is a software platform designed to allow developers to easily create cross platform applications part of the .NET Foundation
-    </description>
-    <disclaimer>
-
-    </disclaimer>
-    <platform>all</platform>
-    <news>
-114
-- Update to 6.0.0.319
-- Update libgdiplus to 6.0.2
-
-113
-- Update to 5.18.1.0
-
-112
-- Update to 5.14.0.177
-- Build libgdiplus static
-- Use an installer to reduce add-on size and installation time
-
-111
-- Update to 5.8.1.0
-
-110
-- Update to 5.8.0.108
-
-109
-- Update to 5.4.1.6
-
-108
-- Update to 5.4.0.201
-
-107
-- Update to 5.2.0.224
-
-106
-- Update to 5.2.0.215
-
-105
-- Update to 5.0.1.1
-
-104
-- Update to 5.0.0.100
-
-103
-- Update to 4.8.1.0
-
-102
-- Update to 4.8.0.495
-
-101
-- Update to 4.2.1.102
-- Build static for all projects and architectures
-- Remove uneeded binaries and libraries
-
-100
-- Initial release
-    </news>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
-
-    </assets>
-  </extension>
-</addon>
-<addon id="virtual.thoradia-mono"
-       name="Thoradia Mono Tools"
-       version="9.1.901.10"
-       provider-name="thoradia">
-  <requires>
-    <import addon="os.libreelec.tv" version="9.1"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-    <import addon="tools.mono" version="0.0.0" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Thoradia Mono Tools: a bundle of tools required by Mono add-ons</summary>
-    <description>
-Thoradia Mono Tools (10) includes libmediainfo shared library.
-    </description>
-    <disclaimer>
-Keep it legal and carry on
-    </disclaimer>
-    <platform>all</platform>
-    <news>
-10
-- Update libmediainfo to 18.12
-
-9
-- Rebuild
-
-8
-- Fix libmediainfo
-
-7
-- Update libmediainfo to 17.12
-
-6
-- Update libmediainfo to 17.10
-
-5
-- Rebuild libmediainfo 0.7.99
-
-4
-- Update libmediainfo to 0.7.99
-
-3
-- Update libmediainfo to 0.7.96
-
-2
-- Update libmediainfo to 0.7.95
-
-1
-- Initial add-on
-    </news>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
-
-    </assets>
-  </extension>
-</addon>
-<addon id="service.headphones"
-       name="Headphones"
-       version="9.1.901.20"
-       provider-name="thoradia">
-  <requires>
-    <import addon="os.libreelec.tv" version="9.1"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Headphones: automated music downloader for NZB and Torrent</summary>
-    <description>
-Headphones (b45f3565da1759485b632493f295bab900df1e7e) is an automated music downloader for NZB and Torrent. It supports SABnzbd, NZBget, Transmission, µTorrent, Deluge and Blackhole.
-    </description>
-    <disclaimer>
-Keep it legal and carry on
-    </disclaimer>
-    <platform>all</platform>
-    <news>
-20
-- Update to b45f356
-
-19
-- Add port to settings
-- Fix nice
-- Rework Python
-
-18
-- Copy python_common in lib
-
-17
-- Rebuild
-
-16
-- Update to da9287d
-- Update Python dependencies
-
-15
-- Update Python dependencies
-
-14
-- Update to 0c98085
-
-13
-- Rebuild
-
-12
-- Fix priority setting
-
-11
-- Fix priority setting
-
-10
-- Update to 8e1cd31
 - Add priority setting
 
-9
-- Update Python dependencies
-
-8
-- Service after/requires multi-user.target network-online.target
-
-7
-- Remove strip_lto
-
-6
-- Add and update python dependencies
-
-5
-- Update to 0.5.18
-
-4
-- Update to 0.5.17
-
-3
-- Remove add-on repository
-
 2
-- Add PyOpenSSL
+- Build against qt-everywhere 5.8.0
 
 1
 - Initial add-on
     </news>
     <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
-
-    </assets>
-  </extension>
-</addon>
-<addon id="service.couchpotato"
-       name="CouchPotato"
-       version="9.1.901.22"
-       provider-name="thoradia">
-  <requires>
-    <import addon="os.libreelec.tv" version="9.1"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>CouchPotato: automatic movie downloading via Usenet and BitTorrent</summary>
-    <description>
-CouchPotato (12ca4c22680961346e0aa2617941bf1a7252fc67) downloads movies automatically, easily and in the best quality as soon as they are available.
-    </description>
-    <disclaimer>
-Keep it legal and carry on
-    </disclaimer>
-    <platform>all</platform>
-    <news>
-22
-- Update to 12ca4c2
-
-21
-- Fix nice
-- Rework Python
-
-20
-- Rebuild
-
-19
-- Update Python dependencies
-
-18
-- Update Python dependencies
-
-17
-- Update to 0a97ed5
-
-16
-- Update to 05b7cab
-
-15
-- Rebuild
-
-14
-- Update to ec42591
-
-13
-- Add priority setting
-
-12
-- Update python dependencies
-
-11
-- Update to 711310d
-
-10
-- Service after/requires multi-user.target network-online.target
-
-9
-- Remove strip_lto
-
-8
-- Reinstate *.pyo files, required for LXML and SSL
-
-7
-- Remove *.pyo files to prevent segfaults on aarch64
-
-6
-- Update python dependencies
-
-5
-- Update to b538f9a
-
-4
-- Rebuild
-
-3
-- Update to 405779047035723bd015fdd51b19379884f53b36
-
-2
-- Remove add-on repository
-
-1
-- Initial add-on
-    </news>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
-
-    </assets>
-  </extension>
-</addon>
-<addon id="service.transmission"
-       name="Transmission"
-       version="9.1.901.17"
-       provider-name="thoradia">
-  <requires>
-    <import addon="os.libreelec.tv" version="9.1"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Transmission: a fast, easy and free BitTorrent client</summary>
-    <description>
-Transmission (3.00-beta) is a fast, easy and free BitTorrent client.
-    </description>
-    <disclaimer>
-Keep it legal and carry on
-    </disclaimer>
-    <platform>all</platform>
-    <news>
-17
-- Update to 3.00-beta
-- Update libevent to 2.1.11-stable
-
-16
-- Update to 2.94
-
-15
-- Update to 2.93
-
-14
-- Rework package
-
-13
-- Build against static libcurl 7.54.0
-
-12
-- Add priority setting
-
-11
-- Rebuild
-
-10
-- Update libevent to 2.1.8-stable
-
-9
-- Rebuild
-
-8
-- Service after/requires multi-user.target network-online.target
-
-7
-- Re-enable spaces in settings, in particular in incomplete path
-
-6
-- Provide for custom initialisation script
-
-5
-- Remove add-on repository
-
-4
-- Optional incomplete-dir
-
-3
-- Disable lightweight
-- Rework settings
-
-2
-- Edit disclaimer
-
-1
-- Initial add-on
-    </news>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
 
     </assets>
   </extension>
@@ -1660,47 +1180,13 @@ Keep it legal and carry on
 - Initial add-on
     </news>
     <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
 
     </assets>
   </extension>
 </addon>
-<addon id="tools.btfs"
-       name="btfs"
-       version="9.1.901.1"
-       provider-name="thoradia">
-  <requires>
-    <import addon="os.libreelec.tv" version="9.1"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>btfs: bittorrent filesystem based on FUSE</summary>
-    <description>
-btfs (2.18) is a bittorrent filesystem based on FUSE.
-    </description>
-    <disclaimer>
-Keep it legal and carry on
-    </disclaimer>
-    <platform>all</platform>
-    <news>
-1
-- Initial add-on
-    </news>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
-
-    </assets>
-  </extension>
-</addon>
-<addon id="service.aria2"
-       name="aria2"
-       version="9.1.901.4"
+<addon id="service.rtorrent"
+       name="rTorrent"
+       version="9.1.901.10"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.1"/>
@@ -1711,98 +1197,111 @@ Keep it legal and carry on
     <provides></provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>aria2: the next generation download utility</summary>
+    <summary>rTorrent: quick and efficient BitTorrent client</summary>
     <description>
-aria2 (1.34.0) is a lightweight multi-protocol and multi-source command-line download utility, which supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink, and can be manipulated via built-in JSON-RPC and XML-RPC interfaces.
+rTorrent (0.9.8) is a quick and efficient BitTorrent client.
     </description>
     <disclaimer>
 Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
-4
-- Enable sftp
-
-3
-- Update to 1.34.0
-
-2
-- Rework system.d
-
-1
-- Initial add-on
-    </news>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
-
-    </assets>
-  </extension>
-</addon>
-<addon id="service.flexget"
-       name="FlexGet"
-       version="9.1.901.11"
-       provider-name="thoradia">
-  <requires>
-    <import addon="os.libreelec.tv" version="9.1"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>FlexGet: automate downloading or processing content from different sources</summary>
-    <description>
-FlexGet (2.17.22) is a program aimed to automate downloading or processing content (torrents, podcasts, etc.) from different sources like RSS-feeds, html-pages, various sites and more.
-    </description>
-    <disclaimer>
-Keep it legal and carry on
-    </disclaimer>
-    <platform>all</platform>
-    <news>
-11
-- Fix package
-
 10
-- Add deluge-client
+- Update to 0.9.8
+- Update libtorrent to 1.13.8
+- Update xmlrpc-c to 1.51.03
 
 9
-- Update to 2.17.22
+- Rebuild
 
 8
-- Update to 2.14.17
-- Add python-telegram-bot
+- Rebuild
 
 7
-- Update to 2.13.0
+- Update to 0.9.7
+- Update libtorrent to 1.13.7
 
 6
-- Update to 2.12.10
+- Rework add-on
 
 5
-- Update to 2.12.7
-- Add deluge
-- Add mechanize
-- Fix flexget.ctl
+- Build against static libcurl 7.54.0
 
 4
-- Update to 2.11.9
-- Add transmissionrpc
+- Bind to 127.0.0.1 rather than to localhost
 
 3
-- Update to 2.11.6
-- Rework Python
+- Refer to session directory with an absolute path
 
 2
-- Fix default config.yml
+- Add changelog.txt
+- Fix xmlrpc-c
+- Force scgi_port
 
 1
 - Initial add-on
     </news>
     <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.rutorrent"
+       name="ruTorrent"
+       version="9.1.901.10"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="service.rtorrent" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>ruTorrent: web front-end for rTorrent</summary>
+    <description>
+ruTorrent (3.10-beta) is a web front-end for rtorrent designed to emulate the look and feel of µTorrent web user interface.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+10
+- Update to 3.10-beta
+- Update php to 7.3.8
+
+9
+- Update to 3.9
+- Update php to 7.3.5
+
+8
+- Update php to 7.2.5
+
+7
+- Update php to 7.1.11
+
+6
+- Update php to 7.1.9
+
+5
+- Build against static libcurl 7.54.0
+
+4
+- Update to 3.8
+
+3
+- Add mediainfo and unrar
+
+2
+- Fix description
+
+1
+- Initial add-on
+    </news>
+    <assets>
 
     </assets>
   </extension>
@@ -1940,11 +1439,578 @@ Keep it legal and carry on
 - Initial add-on
     </news>
     <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.png</fanart>
 
     </assets>
   </extension>
 </addon>
+<addon id="service.sonarr"
+       name="Sonarr"
+       version="9.1.901.32"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
 
+    <import addon="virtual.thoradia-mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Sonarr: a PVR for Usenet and BitTorrent users</summary>
+    <description>
+Sonarr (3.0.3.616) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+32
+- Update to 3.0.3.616
+- Fix certificate verification
+
+31
+- Update to 3.0.2.565
+
+30
+- Remove MemoryMax (enable swap yourself)
+
+29
+- Update to 2.0.0.5322
+
+28
+- Update to 2.0.0.5319
+- Restrict memory usage
+
+27
+- Update to 2.0.0.5301
+- Start after Kodi and Mono
+- Cosmetic changes
+
+26
+- Update to 2.0.0.5252
+
+25
+- Update to 2.0.0.5153
+
+24
+- Update to 2.0.0.5085
+
+23
+- Update to 2.0.0.5054
+
+22
+- Update to 2.0.0.4949
+
+21
+- Update to 2.0.0.4855
+
+20
+- Rebuild
+
+19
+- Fix priority setting
+
+18
+- Fix priority setting
+
+17
+- Add priority setting
+
+16
+- Update to 2.0.0.4753
+
+15
+- Move thoradia-libmediainfo to virtual.thoradia-mono
+
+14
+- Update to 2.0.0.4689
+- Update thoradia-libmediainfo to 0.7.94
+
+13
+- Update to 2.0.0.4645
+
+12
+- Update to 2.0.0.4613
+
+11
+- Service after/requires multi-user.target network-online.target
+
+10
+- Update to 2.0.0.4472
+
+9
+- Update to version 2.0.0.4427
+
+8
+- Rebuild
+
+7
+- Update to version 2.0.0.4409
+
+6
+- Remove add-on repository
+
+5
+- Update to version 2.0.0.4389
+
+4
+- Update to version 2.0.0.4374
+- Edit disclaimer
+
+3
+- Move data to add-on home
+
+2
+- Update to version 2.0.0.4370
+
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.thoradia-vpn"
+       name="Thoradia VPN Network Interface"
+       version="9.1.901.1"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thoradia VPN Network Interface: a virtual private network interface</summary>
+    <description>
+Thoradia VPN Network Interface (1) provides the thoradia-vpn network interface to which applications can bind. The system continues using unmodified network configuration whereas applications bound to the thoradia-vpn network interface connect to the VPN. Thoradia VPN Network Interface is compatible with VPN Manager for OpenVPN.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.thoradia"
+       name="Thoradia Add-ons"
+       version="9.1.901.23"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.repository">
+    <datadir zip="true">https://raw.githubusercontent.com/thoradia/thoradia/master/9.1.901/RK3328/arm/</datadir>
+    <info>https://raw.githubusercontent.com/thoradia/thoradia/master/9.1.901/RK3328/arm/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/thoradia/thoradia/master/9.1.901/RK3328/arm/addons.xml.md5</checksum>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thoradia Add-ons: add-on repository</summary>
+    <description>
+Thoradia Add-ons (23) add-on repository, provides aria2, Bazarr, btfs, CouchPotato, Deluge, FlexGet, Headphones, Jackett, Lidarr, Medusa, Mono, NZBGet, NZBHydra, qBittorent, Radarr, rTorrent, ruTorrent, SABnzbd, Sonarr, Thoradia VPN interface, Transmission and WebGrab+Plus.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+23
+- Rework
+
+22
+- Add CoreELEC cenightly repository
+
+21
+- Fix for CoreELEC ADDON_VERSION 9.0.1
+
+20
+- Mention Bazarr, Mono, Thoradia VPN interface and WebGrab+Plus
+
+19
+- Add Rockchip
+
+18
+- Rework default.py
+
+17
+- Add btfs and Lidarr
+
+16
+- Add FlexGet
+
+15
+- Add NZBHydra
+
+14
+- Support repository.rbrepo
+
+13
+- Add aria2
+
+12
+- Support S805
+
+11
+- Mention Medusa, remove SickRage
+
+10
+- Support Slice and Slice3
+- Update repositories on LibreELEC update
+
+9
+- Mention rTorrent and ruTorrent
+
+8
+- Rework default.py
+
+7
+- Rework default.py
+
+6
+- Mention qBittorrent
+
+5
+- Rename add-on
+
+4
+- Mention Radarr
+
+3
+- Mention Deluge
+
+2
+- Fix datadir
+
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.transmission"
+       name="Transmission"
+       version="9.1.901.17"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Transmission: a fast, easy and free BitTorrent client</summary>
+    <description>
+Transmission (3.00-beta) is a fast, easy and free BitTorrent client.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+17
+- Update to 3.00-beta
+- Update libevent to 2.1.11-stable
+
+16
+- Update to 2.94
+
+15
+- Update to 2.93
+
+14
+- Rework package
+
+13
+- Build against static libcurl 7.54.0
+
+12
+- Add priority setting
+
+11
+- Rebuild
+
+10
+- Update libevent to 2.1.8-stable
+
+9
+- Rebuild
+
+8
+- Service after/requires multi-user.target network-online.target
+
+7
+- Re-enable spaces in settings, in particular in incomplete path
+
+6
+- Provide for custom initialisation script
+
+5
+- Remove add-on repository
+
+4
+- Optional incomplete-dir
+
+3
+- Disable lightweight
+- Rework settings
+
+2
+- Edit disclaimer
+
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.webgrabplus"
+       name="WebGrab+Plus"
+       version="9.1.901.110"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>WebGrab+Plus: a multi-site incremental xmltv epg grabber</summary>
+    <description>
+WebGrab+Plus (2.1.11_beta) collects tv-program guide data from selected tvguide sites for your favourite channels.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+110
+- Update to 2.1.11_beta
+
+109
+- Allow disabling --on-active setting
+
+108
+- Update to 2.1.10_beta
+
+107
+- Update to 2.1.9_beta
+
+105
+- Upgrade WebGrab!Plus to 2.1.5_beta
+
+104
+- Upgrade siteini.pack to 20161021
+- Add system.d timer
+- Add license headers
+
+103
+- Upgrade mdb ini files
+
+102
+- Upgrade WebGrab+Plus to 56.29.pre
+- Upgrade siteini.pack to 20160807
+- Call user defined pre/post processing
+
+101
+- Upgrade WebGrab+Plus to 56.28.pre
+- Upgrade siteini.pack to 20160729
+
+100
+- Initial addon
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="tools.btfs"
+       name="btfs"
+       version="9.1.901.1"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>btfs: bittorrent filesystem based on FUSE</summary>
+    <description>
+btfs (2.18) is a bittorrent filesystem based on FUSE.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="tools.mono"
+       name="Mono"
+       version="9.1.901.114"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Mono: a cross platform, open source .NET framework</summary>
+    <description>
+Mono (6.0.0.319) is a software platform designed to allow developers to easily create cross platform applications part of the .NET Foundation
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+114
+- Update to 6.0.0.319
+- Update libgdiplus to 6.0.2
+
+113
+- Update to 5.18.1.0
+
+112
+- Update to 5.14.0.177
+- Build libgdiplus static
+- Use an installer to reduce add-on size and installation time
+
+111
+- Update to 5.8.1.0
+
+110
+- Update to 5.8.0.108
+
+109
+- Update to 5.4.1.6
+
+108
+- Update to 5.4.0.201
+
+107
+- Update to 5.2.0.224
+
+106
+- Update to 5.2.0.215
+
+105
+- Update to 5.0.1.1
+
+104
+- Update to 5.0.0.100
+
+103
+- Update to 4.8.1.0
+
+102
+- Update to 4.8.0.495
+
+101
+- Update to 4.2.1.102
+- Build static for all projects and architectures
+- Remove uneeded binaries and libraries
+
+100
+- Initial release
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="virtual.thoradia-mono"
+       name="Thoradia Mono Tools"
+       version="9.1.901.10"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thoradia Mono Tools: a bundle of tools required by Mono add-ons</summary>
+    <description>
+Thoradia Mono Tools (10) includes libmediainfo shared library.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+10
+- Update libmediainfo to 18.12
+
+9
+- Rebuild
+
+8
+- Fix libmediainfo
+
+7
+- Update libmediainfo to 17.12
+
+6
+- Update libmediainfo to 17.10
+
+5
+- Rebuild libmediainfo 0.7.99
+
+4
+- Update libmediainfo to 0.7.99
+
+3
+- Update libmediainfo to 0.7.96
+
+2
+- Update libmediainfo to 0.7.95
+
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 </addons>
