@@ -641,6 +641,172 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.jackett"
+       name="Jackett"
+       version="9.1.901.42"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Jackett: proxy to tracker sites</summary>
+    <description>
+Jackett (0.11.760) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+42
+- Update to 0.11.760
+- Fix system.d
+
+41
+- Update to 0.11.463
+
+40
+- Update to 0.11.375 for Mono
+
+39
+-  Update to standalone 0.11.361
+
+38
+- Update to 0.11.295
+- Remove MemoryMax (enable swap yourself)
+
+37
+- Update to 0.11.36
+- Revert to Mono
+- Set MemoryMax=200M
+
+36
+- Update to 0.11.8
+- Switch to .Net Core
+- Set MemoryMax=300M to enable auto-update
+
+35
+- Update to 0.10.778
+- MemoryHigh=125M and MemoryMax=150M in system.d
+
+34
+- Update to 0.10.657
+- Start after Kodi and Mono
+- Cosmetic changes
+
+33
+- Update to 0.10.566
+
+32
+- Update to 0.8.737
+
+31
+- Update to 0.8.716
+
+30
+- Update to 0.8.321
+- Populate Mono certificates
+
+29
+- Update to 0.8.249
+- Use XDG_CONFIG_HOME instead of DataFolder
+
+28
+- Update to 0.7.1523
+
+27
+- Update to 0.7.1499
+- Enable auto-update
+
+26
+- Update to 0.7.1483
+
+25
+- Update to 0.7.1477
+
+24
+- Update to 0.7.1469
+
+23
+- Rebuild
+
+22
+- Fix priority setting
+
+21
+- Fix priority setting
+
+20
+- Add priority setting
+
+19
+- Update to 0.7.1437
+
+18
+- Update to 0.7.1389
+
+17
+- Update to 0.7.1256
+
+16
+- Update to 0.7.1225
+
+15
+- Update to 0.7.1167
+
+14
+- Update to 0.7.1150
+
+13
+- Update to 0.7.1138
+
+12
+- Update to 0.7.1079
+
+11
+- Update to 0.7.932
+
+10
+- Service after/requires multi-user.target network-online.target
+
+9
+- Update to 0.7.890
+
+8
+- Update to 0.7.860
+
+7
+- Update to 0.7.839
+
+6
+- Update to 0.7.825
+
+5
+- Update to 0.7.741
+
+4
+- Update to 0.7.639
+
+3
+- Remove add-on repository
+
+2
+- Correct descriptions
+
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.lidarr"
        name="Lidarr"
        version="9.1.901.8"
@@ -664,6 +830,63 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+8
+- Update to 0.6.2.883
+
+7
+- Start after Kodi and Mono
+- Cosmetic changes
+
+6
+- Update to 0.5.0.583
+
+5
+- Update to 0.2.0.371
+
+4
+- Update to 0.2.0.291
+
+3
+- Update to 0.2.0.289
+
+2
+- Update to 0.2.0.286
+
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.lidarr"
+       name="Lidarr"
+       version="9.1.901.9"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="virtual.thoradia-mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Lidarr: a music collection manager for Usenet and BitTorrent users</summary>
+    <description>
+Lidarr (0.7.1.1381) is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+9
+- Update to 0.7.1.1381
+- Fix system.d
+
 8
 - Update to 0.6.2.883
 
@@ -1184,6 +1407,112 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.radarr"
+       name="Radarr"
+       version="9.1.901.25"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="virtual.thoradia-mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Radarr: a fork of Sonarr to work with movies à la CouchPotato</summary>
+    <description>
+Radarr (0.2.0.1358) is a fork of Sonarr to work with movies à la CouchPotato.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+25
+- Fix system.d
+
+24
+- Update to 0.2.0.1358
+
+23
+- Update to 0.2.0.1344
+- Remove MemoryMax (enable swap yourself)
+
+22
+- Update to 0.2.0.1293
+- Restrict memory usage
+
+21
+- Start after Kodi and Mono
+- Cosmetic changes
+
+20
+- Update to 0.2.0.1217
+
+19
+- Update to 0.2.0.995
+
+18
+- Update to 0.2.0.980
+
+17
+- Update to 0.2.0.870
+
+16
+- Update to 0.2.0.852
+
+15
+- Update to 0.2.0.778
+
+14
+- Rebuild
+
+13
+- Fix priority setting
+
+12
+- Fix priority setting
+
+11
+- Add priority setting
+
+10
+- Update to 0.2.0.696
+
+9
+- Update to 0.2.0.654
+
+8
+- Move thoradia-libmediainfo to virtual.thoradia-mono
+
+7
+- Update to 0.2.0.596
+
+6
+- Update thoradia-libmediainfo to 0.7.94
+
+5
+- Update to 0.2.0.535
+
+4
+- Update to 0.2.0.375
+
+3
+- Update to 0.2.0.238
+
+2
+- Service after/requires multi-user.target network-online.target
+
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.rtorrent"
        name="rTorrent"
        version="9.1.901.10"
@@ -1573,6 +1902,140 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.sonarr"
+       name="Sonarr"
+       version="9.1.901.34"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="virtual.thoradia-mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Sonarr: a PVR for Usenet and BitTorrent users</summary>
+    <description>
+Sonarr (3.0.3.644) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+33
+- Update to 3.0.3.644
+- Fix system.d
+
+32
+- Update to 3.0.3.616
+- Fix certificate verification
+
+31
+- Update to 3.0.2.565
+
+30
+- Remove MemoryMax (enable swap yourself)
+
+29
+- Update to 2.0.0.5322
+
+28
+- Update to 2.0.0.5319
+- Restrict memory usage
+
+27
+- Update to 2.0.0.5301
+- Start after Kodi and Mono
+- Cosmetic changes
+
+26
+- Update to 2.0.0.5252
+
+25
+- Update to 2.0.0.5153
+
+24
+- Update to 2.0.0.5085
+
+23
+- Update to 2.0.0.5054
+
+22
+- Update to 2.0.0.4949
+
+21
+- Update to 2.0.0.4855
+
+20
+- Rebuild
+
+19
+- Fix priority setting
+
+18
+- Fix priority setting
+
+17
+- Add priority setting
+
+16
+- Update to 2.0.0.4753
+
+15
+- Move thoradia-libmediainfo to virtual.thoradia-mono
+
+14
+- Update to 2.0.0.4689
+- Update thoradia-libmediainfo to 0.7.94
+
+13
+- Update to 2.0.0.4645
+
+12
+- Update to 2.0.0.4613
+
+11
+- Service after/requires multi-user.target network-online.target
+
+10
+- Update to 2.0.0.4472
+
+9
+- Update to version 2.0.0.4427
+
+8
+- Rebuild
+
+7
+- Update to version 2.0.0.4409
+
+6
+- Remove add-on repository
+
+5
+- Update to version 2.0.0.4389
+
+4
+- Update to version 2.0.0.4374
+- Edit disclaimer
+
+3
+- Move data to add-on home
+
+2
+- Update to version 2.0.0.4370
+
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.thoradia-vpn"
        name="Thoradia VPN Network Interface"
        version="9.1.901.1"
@@ -1785,6 +2248,90 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.transmission"
+       name="Transmission"
+       version="9.1.901.18"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Transmission: a fast, easy and free BitTorrent client</summary>
+    <description>
+Transmission (3.00-beta) is a fast, easy and free BitTorrent client.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+18
+- Rework package
+- Fix system.d
+
+17
+- Update to 3.00-beta
+- Update libevent to 2.1.11-stable
+
+16
+- Update to 2.94
+
+15
+- Update to 2.93
+
+14
+- Rework package
+
+13
+- Build against static libcurl 7.54.0
+
+12
+- Add priority setting
+
+11
+- Rebuild
+
+10
+- Update libevent to 2.1.8-stable
+
+9
+- Rebuild
+
+8
+- Service after/requires multi-user.target network-online.target
+
+7
+- Re-enable spaces in settings, in particular in incomplete path
+
+6
+- Provide for custom initialisation script
+
+5
+- Remove add-on repository
+
+4
+- Optional incomplete-dir
+
+3
+- Disable lightweight
+- Rework settings
+
+2
+- Edit disclaimer
+
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.webgrabplus"
        name="WebGrab+Plus"
        version="9.1.901.110"
@@ -1808,6 +2355,72 @@ WebGrab+Plus (2.1.11_beta) collects tv-program guide data from selected tvguide 
     </disclaimer>
     <platform>all</platform>
     <news>
+110
+- Update to 2.1.11_beta
+
+109
+- Allow disabling --on-active setting
+
+108
+- Update to 2.1.10_beta
+
+107
+- Update to 2.1.9_beta
+
+105
+- Upgrade WebGrab!Plus to 2.1.5_beta
+
+104
+- Upgrade siteini.pack to 20161021
+- Add system.d timer
+- Add license headers
+
+103
+- Upgrade mdb ini files
+
+102
+- Upgrade WebGrab+Plus to 56.29.pre
+- Upgrade siteini.pack to 20160807
+- Call user defined pre/post processing
+
+101
+- Upgrade WebGrab+Plus to 56.28.pre
+- Upgrade siteini.pack to 20160729
+
+100
+- Initial addon
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.webgrabplus"
+       name="WebGrab+Plus"
+       version="9.1.901.111"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>WebGrab+Plus: a multi-site incremental xmltv epg grabber</summary>
+    <description>
+WebGrab+Plus (2.1.11_beta) collects tv-program guide data from selected tvguide sites for your favourite channels.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+111
+- Fix system.d
+
 110
 - Update to 2.1.11_beta
 
@@ -1900,6 +2513,87 @@ Mono (6.0.0.319) is a software platform designed to allow developers to easily c
     </disclaimer>
     <platform>all</platform>
     <news>
+114
+- Update to 6.0.0.319
+- Update libgdiplus to 6.0.2
+
+113
+- Update to 5.18.1.0
+
+112
+- Update to 5.14.0.177
+- Build libgdiplus static
+- Use an installer to reduce add-on size and installation time
+
+111
+- Update to 5.8.1.0
+
+110
+- Update to 5.8.0.108
+
+109
+- Update to 5.4.1.6
+
+108
+- Update to 5.4.0.201
+
+107
+- Update to 5.2.0.224
+
+106
+- Update to 5.2.0.215
+
+105
+- Update to 5.0.1.1
+
+104
+- Update to 5.0.0.100
+
+103
+- Update to 4.8.1.0
+
+102
+- Update to 4.8.0.495
+
+101
+- Update to 4.2.1.102
+- Build static for all projects and architectures
+- Remove uneeded binaries and libraries
+
+100
+- Initial release
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="tools.mono"
+       name="Mono"
+       version="9.1.901.115"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.1"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Mono: a cross platform, open source .NET framework</summary>
+    <description>
+Mono (6.4.0.198) is a software platform designed to allow developers to easily create cross platform applications part of the .NET Foundation.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+115
+- Update to 6.4.0.198
+- Fix system.d
+
 114
 - Update to 6.0.0.319
 - Update libgdiplus to 6.0.2
