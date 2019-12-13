@@ -167,6 +167,73 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.bazarr"
+       name="Bazarr"
+       version="9.2.0.13"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Bazarr: subtitles for Sonarr and Radarr</summary>
+    <description>
+Bazarr (0.8.3.4) is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movies and Bazarr takes care of everything for you. 
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+13
+- Update to 0.8.3.4
+
+12
+- Update to 0.8.2.4
+
+11
+- Update to 0.8.1
+
+10
+- Update to 0.7.5.1
+
+9
+- Update to 0.7.5
+
+8
+- Update to 0.7.4
+
+7
+- Update to 0.7.3
+
+6
+- Update to 0.7.2.1
+
+5
+- Update to 0.7.2
+
+4
+- Update to 0.7.1
+
+3
+- Update to 0.7.0.5
+- Start after Kodi
+
+2
+- Update to 0.7.0
+
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.couchpotato"
        name="CouchPotato"
        version="9.2.0.22"
@@ -283,6 +350,137 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+30
+- Force versions of setuptools and wheel
+
+29
+- Provide libtorrent-rasterbar
+
+28
+- Update to 2.0.3
+
+27
+- Update to 2.0.2
+- Update libtorrent-rasterbar to 1.2.1
+- Start after Kodi
+
+26
+- Update Python dependencies
+- Update libtorrent-rasterbar to 1.1.11
+
+25
+- Update Python dependencies
+- Update boost to 1.66.0
+- Update libtorrent-rasterbar to 1.1.6
+- Use own libtorrent-rasterbar
+
+24
+- Add port to settings
+- Fix nice
+- Rework Python
+
+23
+- Simplify PYTHONPATH
+
+22
+- Rebuild
+
+21
+- Update dependencies
+
+20
+- Update Python dependencies
+
+19
+- Update libtorrent-rasterbar to 1.1.4
+
+18
+- Rebuild
+
+17
+- Fix priority setting
+
+16
+- Fix priority setting
+
+15
+- Add priority setting
+
+14
+- Fix description
+
+13
+- Update to 1.3.15
+
+12
+- Update libtorrent-rasterbar to 1.1.3
+- Update Python dependencies
+
+11
+- Revert to 1.3.14 and apply only necessary patches
+
+10
+- Update to 08c03d7
+
+9
+- Update libtorrent-rasterbar to 1.1.2
+
+8
+- Update to 1.3.14
+- Update Python dependencies
+
+7
+- Update libtorrent-rasterbar to 1.0.11
+
+6
+- Service after/requires multi-user.target network-online.target
+
+5
+- Enable start daemon button
+- Wait for DNS
+
+4
+- Remove strip_lto
+
+3
+- Update Python dependencies
+
+2
+- Rebuild
+
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.deluge"
+       name="Deluge"
+       version="9.2.0.31"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Deluge: lightweight, free software, cross-platform BitTorrent client</summary>
+    <description>
+Deluge (2.0.3) is a lightweight, free software, cross-platform BitTorrent client.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+31
+- Update libtorrent-rasterbar to 1.2.2
+
 30
 - Force versions of setuptools and wheel
 
@@ -1883,6 +2081,94 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.transmission"
+       name="Transmission"
+       version="9.2.0.19"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Transmission: a fast, easy and free BitTorrent client</summary>
+    <description>
+Transmission (2.94) is a fast, easy and free BitTorrent client.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+19
+- Downgrade to 2.94
+- Add CLI
+
+18
+- Rework package
+- Fix system.d
+
+17
+- Update to 3.00-beta
+- Update libevent to 2.1.11-stable
+
+16
+- Update to 2.94
+
+15
+- Update to 2.93
+
+14
+- Rework package
+
+13
+- Build against static libcurl 7.54.0
+
+12
+- Add priority setting
+
+11
+- Rebuild
+
+10
+- Update libevent to 2.1.8-stable
+
+9
+- Rebuild
+
+8
+- Service after/requires multi-user.target network-online.target
+
+7
+- Re-enable spaces in settings, in particular in incomplete path
+
+6
+- Provide for custom initialisation script
+
+5
+- Remove add-on repository
+
+4
+- Optional incomplete-dir
+
+3
+- Disable lightweight
+- Rework settings
+
+2
+- Edit disclaimer
+
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.webgrabplus"
        name="WebGrab+Plus"
        version="9.2.0.111"
@@ -1971,6 +2257,40 @@ Keep it legal and carry on
     </disclaimer>
     <platform>all</platform>
     <news>
+1
+- Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="tools.btfs"
+       name="btfs"
+       version="9.2.0.2"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>btfs: bittorrent filesystem based on FUSE</summary>
+    <description>
+btfs (2.20) is a bittorrent filesystem based on FUSE.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+2
+- Update to 2.20
+- Update libtorrent-rasterbar to 1.2.2
+
 1
 - Initial add-on
     </news>
