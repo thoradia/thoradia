@@ -910,6 +910,66 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.jackett"
+       name="Jackett"
+       version="9.2.0.43"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Jackett: proxy to tracker sites</summary>
+    <description>
+Jackett (0.16.105) works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr,  etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Jackett version 0.16.105
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.lidarr"
+       name="Lidarr"
+       version="9.2.0.10"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="virtual.thoradia-mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Lidarr: a music collection manager for Usenet and BitTorrent users</summary>
+    <description>
+Lidarr (0.7.1.1381) is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Lidarr version 0.7.1.1381
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.lidarr"
        name="Lidarr"
        version="9.2.0.9"
@@ -1600,6 +1660,36 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.radarr"
+       name="Radarr"
+       version="9.2.0.26"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="virtual.thoradia-mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Radarr: a fork of Sonarr to work with movies à la CouchPotato</summary>
+    <description>
+Radarr (0.2.0.1480) is a fork of Sonarr to work with movies à la CouchPotato.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Radarr version 0.2.0.1480
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.rtorrent"
        name="rTorrent"
        version="9.2.0.10"
@@ -2115,6 +2205,36 @@ Keep it legal and carry on
 
 1
 - Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.sonarr"
+       name="Sonarr"
+       version="9.2.0.35"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="virtual.thoradia-mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Sonarr: a PVR for Usenet and BitTorrent users</summary>
+    <description>
+Sonarr (3.0.3.770) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Sonarr version 3.0.3.770
     </news>
     <assets>
 
@@ -2854,6 +2974,36 @@ Mono (6.4.0.198) is a software platform designed to allow developers to easily c
     </assets>
   </extension>
 </addon>
+<addon id="tools.mono"
+       name="Mono"
+       version="9.2.0.117"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Mono: a cross platform, open source .NET framework</summary>
+    <description>
+Mono (6.8.0.105) is a software platform designed to allow developers to easily create cross platform applications part of the .NET Foundation.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Mono version 6.8.0.105
+- Disable libraries, without compiler server
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="virtual.thoradia-mono"
        name="Thoradia Mono Tools"
        version="9.2.0.10"
@@ -2967,6 +3117,36 @@ Keep it legal and carry on
 
 1
 - Initial add-on
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="virtual.thoradia-mono"
+       name="Thoradia Mono Tools"
+       version="9.2.0.12"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thoradia Mono Tools: a bundle of tools required by Mono add-ons</summary>
+    <description>
+Thoradia Mono Tools (12) includes the libmediainfo shared library.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- libmediainfo-shared version 20.03
     </news>
     <assets>
 
