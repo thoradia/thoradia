@@ -2918,6 +2918,36 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.webgrabplus"
+       name="WebGrab+Plus"
+       version="9.2.0.114"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>WebGrab+Plus: a multi-site incremental xmltv epg grabber</summary>
+    <description>
+WebGrab+Plus (3.0.3_beta) collects tv-program guide data from selected tvguide sites for your favourite channels.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- WebGrab+Plus version 3.0.3_beta
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="tools.btfs"
        name="btfs"
        version="9.2.0.1"
