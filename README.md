@@ -6,7 +6,7 @@ The Thoradia Add-ons repository is a collection of add-ons for [LibreELEC](https
 
 ### Keep it legal and carry on
 
-Responsibility for the installation, the configuration and the operation of add-ons of the Thoradia Add-ons repository, and the consequences thereof, lies exclusively with the user.
+Responsibility for the installation, the configuration and the operation of add-ons of the Thoradia Add-ons repository, and for the consequences thereof, lies exclusively with the user.
 
 ### System Resources
 
