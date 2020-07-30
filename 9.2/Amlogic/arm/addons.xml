@@ -2706,6 +2706,34 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.zerotier-one"
+       name="ZeroTier One"
+       version="9.2.1"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>ZeroTier One: easily connect cloud, mobile, desktop, and data center resources anywhere</summary>
+    <description>
+ZeroTier One (1.4.6) easily connects cloud, mobile, desktop, and data center resources anywhere.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- zerotier-one: version 1.4.6
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="tools.btfs"
        name="btfs"
        version="9.2.1"
