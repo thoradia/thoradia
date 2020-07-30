@@ -56,6 +56,7 @@ You can now manage (install, update, uninstall, etc.) all the add-ons of the Tho
 |                                     | Thoradia VPN Interface                            | virtual private network  |
 | [9091](http://libreelec.local:9091) | [Transmission](https://transmissionbt.com/)       | bittorrent manager       |
 |                                     | [WebGrab+Plus](http://webgrabplus.com/)           | electronic program guide |
+|                                     | [ZeroTier One](https://www.zerotier.com/)         | virtual private network  |
 
 ## GitHub
 
