@@ -46,6 +46,7 @@ You can now manage (install, update, uninstall, etc.) all the add-ons of the Tho
 | [8686](http://libreelec.local:8686) | [Lidarr](https://lidarr.audio/)                   | music manager            |
 | [8081](8081)                        | [Medusa](https://github.com/pymedusa/Medusa)      | series manager           |
 |                                     | [Mono](https://www.mono-project.com/)             | software platform        |
+|                                     | [NordVPN](https://nordvpn.com/)                   | virtual private network  |
 | [6789](http://libreelec.local:6789) | [NZBGet](https://nzbget.net/)                     | usenet client            |
 | [8880](http://libreelec.local:8880) | [qBittorrent](https://www.qbittorrent.org/)       | bittorrent client        |
 | [7878](http://libreelec.local:7878) | [Radarr](https://radarr.video/)                   | movie manager            |
