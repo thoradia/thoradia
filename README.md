@@ -44,7 +44,7 @@ You can now manage (install, update, uninstall, etc.) all the add-ons of the Tho
 |                                     | [FlexGet](https://flexget.com/)                   | download client          |
 | [9117](http://libreelec.local:9117) | [Jackett](https://github.com/Jackett/Jackett)     | media indexer            |
 | [8686](http://libreelec.local:8686) | [Lidarr](https://lidarr.audio/)                   | music manager            |
-| [8081](8081)                        | [Medusa](https://github.com/pymedusa/Medusa)      | series manager           |
+| [8081](http://libreelec.local:8081) | [Medusa](https://github.com/pymedusa/Medusa)      | series manager           |
 |                                     | [Mono](https://www.mono-project.com/)             | software platform        |
 |                                     | [NordVPN](https://nordvpn.com/)                   | virtual private network  |
 | [6789](http://libreelec.local:6789) | [NZBGet](https://nzbget.net/)                     | usenet client            |
