@@ -1039,6 +1039,35 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.jackett"
+       name="Jackett"
+       version="9.2.0.49"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Jackett: proxy to tracker sites</summary>
+    <description>
+Jackett works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr, etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Jackett bootstrap
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.lidarr"
        name="Lidarr"
        version="9.2.0.10"
@@ -2363,6 +2392,36 @@ Keep it legal and carry on
     <platform>all</platform>
     <news>
 - Sonarr version 3.0.3.770
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.sonarr"
+       name="Sonarr"
+       version="9.2.0.39"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="virtual.thoradia-mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Sonarr: a PVR for Usenet and BitTorrent users</summary>
+    <description>
+Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Sonarr bootstrap
     </news>
     <assets>
 
