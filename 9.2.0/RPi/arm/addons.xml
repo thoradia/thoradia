@@ -1266,6 +1266,35 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.nordvpn"
+       name="NordVPN"
+       version="9.2.0.6"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>NordVPN: protect your privacy online and access media content with no regional restrictions</summary>
+    <description>
+NordVPN (3.8.4) protect your privacy online and access media content with no regional restrictions, strong encryption and no-log policy with 3000+ servers in 60+ countries.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- nordvpn version 3.8.4
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.nzbget"
        name="NZBGet"
        version="9.2.0.16"
@@ -1776,6 +1805,35 @@ Keep it legal and carry on
 <addon id="service.qbittorrent"
        name="qBittorrent"
        version="9.2.0.29"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>qBittorrent: efficient feature complete C++ bittorrent implementation</summary>
+    <description>
+qBittorrent (4.2.5) is an efficient feature complete C++ bittorrent implementation.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- qBittorent version 4.2.5
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.qbittorrent"
+       name="qBittorrent"
+       version="9.2.0.31"
        provider-name="thoradia">
   <requires>
     <import addon="os.libreelec.tv" version="9.2"/>
