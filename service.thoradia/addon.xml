@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="service.thoradia"
        name="Thoradia Add-ons"
-       version="0.0.0.24"
+       version="0.0.0.25"
        provider-name="thoradia">
   <requires>
-    <import addon="os.libreelec.tv" version="9.80"/>
     <import addon="xbmc.python" version="3.0.0"/>
 
   </requires>
@@ -19,7 +18,7 @@
   <extension point="xbmc.addon.metadata">
     <summary>Thoradia Add-ons: add-on repository</summary>
     <description>
-Thoradia Add-ons (24) add-on repository.
+Thoradia Add-ons (25) add-on repository.
     </description>
     <disclaimer>
 Keep it legal and carry on

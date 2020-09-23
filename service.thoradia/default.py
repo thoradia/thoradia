@@ -13,7 +13,7 @@ REPOSITORIES = ['repository.libreelec.tv',
 
 ADDON = xbmcaddon.Addon()
 ADDON_STRINGS = ADDON.getLocalizedString
-LOG_LEVEL = xbmc.LOGNOTICE
+LOG_LEVEL = xbmc.LOGINFO
 LOG_MESSAGE = 'thoradia: {}'
 
 
