@@ -21,7 +21,7 @@ The add-ons are built with the LibreELEC build system to run on the LibreELEC op
 The Thoradia Add-ons repository needs to be installed from a zip file. The zip file depends on the version of LibreELEC on which it is installed, as listed below:
 
 -   for LibreELEC version 9.2.x or lower, use [this zip file](https://github.com/thoradia/thoradia/releases/download/9.2.0.23/service.thoradia.9.2.0.23.zip),
--   for LibreELEC version 9.80.x or higher, use [this zip file](https://github.com/thoradia/thoradia/releases/download/9.80.5.24/service.thoradia.9.80.5.24.zip).
+-   for LibreELEC version 9.80.x or higher, use [this zip file](hhttps://github.com/thoradia/thoradia/releases/download/9.80.6.25/service.thoradia-9.80.6.25.zip).
 
 First, download the appropriate zip file to a location that can be accessed from LibreELEC, for example to the downloads [SMB share](https://wiki.libreelec.tv/accessing_libreelec#tab__sambasmb) LibreELEC.
 
