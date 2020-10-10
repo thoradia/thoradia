@@ -3480,4 +3480,33 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="virtual.thoradia-mono"
+       name="Thoradia .Net and Mono Tools"
+       version="9.2.16"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thoradia .Net and Mono Tools: a bundle of tools required by .Net and Mono add-ons</summary>
+    <description>
+Thoradia .Net and Mono Tools (16) includes the ICU and MediaInfo shared libraries.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- icu4c version 67-1
+  libmediainfo-shared version 20.09
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 </addons>
