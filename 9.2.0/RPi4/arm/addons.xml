@@ -1130,6 +1130,37 @@ Keep it legal and carry on
 </addon>
 <addon id="service.lidarr"
        name="Lidarr"
+       version="9.2.0.11"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+    <import addon="virtual.thoradia-mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Lidarr: a music collection manager for Usenet and BitTorrent users</summary>
+    <description>
+Lidarr (0.7.1.1381) is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Lidarr version 0.7.1.1381
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.lidarr"
+       name="Lidarr"
        version="9.2.0.9"
        provider-name="thoradia">
   <requires>
@@ -2705,6 +2736,37 @@ Keep it legal and carry on
     <import addon="os.libreelec.tv" version="9.2"/>
     <import addon="xbmc.python" version="2.1.0"/>
 
+    <import addon="virtual.thoradia-mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Sonarr: a PVR for Usenet and BitTorrent users</summary>
+    <description>
+Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Sonarr bootstrap
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.sonarr"
+       name="Sonarr"
+       version="9.2.0.41"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
     <import addon="virtual.thoradia-mono" version="0.0.0" />
   </requires>
   <extension point="xbmc.service" library="default.py">
