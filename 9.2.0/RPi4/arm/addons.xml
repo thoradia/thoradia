@@ -2209,6 +2209,36 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.radarr"
+       name="Radarr"
+       version="9.2.0.36"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="virtual.thoradia-mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Radarr: a fork of Sonarr to work with movies à la CouchPotato</summary>
+    <description>
+Radarr is a fork of Sonarr to work with movies à la CouchPotato.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Radarr bootstrap
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.rtorrent"
        name="rTorrent"
        version="9.2.0.10"
