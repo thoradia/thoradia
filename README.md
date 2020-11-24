@@ -65,7 +65,7 @@ You can now manage (install, update, uninstall, etc.) all the add-ons of the Tho
 
 The source code of the Thoradia add-ons for LibreELEC can be found [here](https://github.com/thoradia/LibreELEC.tv/branches). At the time of writing, only the following branches are maintained:
 
--   [9.80.7](https://github.com/thoradia/LibreELEC.tv/tree/9.80.7) for [LibreELEC nightly builds](https://test.libreelec.tv/),
+-   [9.80.8](https://github.com/thoradia/LibreELEC.tv/tree/9.80.8) for [LibreELEC nightly builds](https://test.libreelec.tv/),
 -   [9.2](https://github.com/thoradia/LibreELEC.tv/tree/9.2/) for LibreELEC 9.2.x,
 -   [coreelec-9.2](https://github.com/thoradia/LibreELEC.tv/tree/coreelec-9.2/) for CoreELEC 9.2.x.
 
@@ -73,7 +73,7 @@ The source code of the Thoradia add-ons for LibreELEC can be found [here](https:
 
 The add-ons can be found [here](https://github.com/thoradia/thoradia/branches), in particular:
 
--   [9.80.7](https://github.com/thoradia/thoradia/tree/9.80.7) for [LibreELEC nightly builds](https://test.libreelec.tv/),
+-   [9.80.8](https://github.com/thoradia/thoradia/tree/9.80.8) for [LibreELEC nightly builds](https://test.libreelec.tv/),
 -   [master](https://github.com/thoradia/thoradia/tree/master) for LibreELEC 9.2.x and CoreELEC 9.2.x.
 
 ## Feedback
