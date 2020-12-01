@@ -1265,6 +1265,37 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.medusa"
+       name="Medusa"
+       version="9.2.0.7"
+       provider-name="thoradia">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.2"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="service.locale" version="0.0.0" />
+    <import addon="tools.ffmpeg-tools" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Medusa: automatic video library manager for TV shows</summary>
+    <description>
+Medusa (0.4.6) watches for new episodes of your favorite shows, and when they are posted it does its magic.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- medusa vesions 0.4.6
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.nordvpn"
        name="NordVPN"
        version="9.2.0.11"
