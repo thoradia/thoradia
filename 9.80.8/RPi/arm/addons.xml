@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="service.aria2"
+       name="aria2"
+       version="9.80.8.6"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>aria2: the next generation download utility</summary>
+    <description>
+aria2 (1.35.0) is a lightweight multi-protocol and multi-source command-line download utility, which supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink, and can be manipulated via built-in JSON-RPC and XML-RPC interfaces.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- aria2 version 1.35.0
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.bazarr"
+       name="Bazarr"
+       version="9.80.8.22"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+    <import addon="service.locale" version="0.0.0" />
+    <import addon="tools.ffmpeg-tools" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Bazarr: subtitles for Sonarr and Radarr</summary>
+    <description>
+Bazarr (0.9.0.7) is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movies and Bazarr takes care of everything for you. 
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Bazarr version 0.9.0.7
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.deluge"
+       name="Deluge"
+       version="9.80.8.32"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Deluge: lightweight, free software, cross-platform BitTorrent client</summary>
+    <description>
+Deluge (2.0.3) is a lightweight, free software, cross-platform BitTorrent client.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Deluge version 2.0.3
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.flexget"
+       name="FlexGet"
+       version="9.80.8.23"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>FlexGet: automate downloading or processing content from different sources</summary>
+    <description>
+FlexGet (3.1.91) is a program aimed to automate downloading or processing content (torrents, podcasts, etc.) from different sources like RSS-feeds, html-pages, various sites and more.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- FlexGet version 3.1.91
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.jackett"
+       name="Jackett"
+       version="9.80.8.51"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Jackett: proxy to tracker sites</summary>
+    <description>
+Jackett works as a proxy server: it translates queries from applications (CouchPotato, Mylar, SickRage, Sonarr, etc.) into tracker-site-specific HTTP queries, parses the HTML response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping and translation logic, removing the burden from other applications.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Jackett bootstrap
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.lidarr"
+       name="Lidarr"
+       version="9.80.8.11"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+    <import addon="virtual.thoradia-mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Lidarr: a music collection manager for Usenet and BitTorrent users</summary>
+    <description>
+Lidarr (0.7.1.1381) is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Lidarr version 0.7.1.1381
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.medusa"
+       name="Medusa"
+       version="9.80.8.10"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+    <import addon="service.locale" version="0.0.0" />
+    <import addon="tools.ffmpeg-tools" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Medusa: automatic video library manager for TV shows</summary>
+    <description>
+Medusa (0.5.1) watches for new episodes of your favorite shows, and when they are posted it does its magic.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Medusa version 0.5.1
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.nordvpn"
+       name="NordVPN"
+       version="9.80.8.13"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.python.script" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>NordVPN: protect your privacy online and access media content with no regional restrictions</summary>
+    <description>
+NordVPN (3.8.8) protects your privacy online and access media content with no regional restrictions, strong encryption and no-log policy with 3000+ servers in 60+ countries.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- nordvpn version 3.8.8
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.nzbget"
+       name="NZBGet"
+       version="9.80.8.16"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>NZBGet: efficient Usenet downloader</summary>
+    <description>
+NZBGet (21.0) is an efficient Usenet downloader.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- NZBGet version 21.0
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.qbittorrent"
+       name="qBittorrent"
+       version="9.80.8.34"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>qBittorrent: efficient feature complete C++ bittorrent implementation</summary>
+    <description>
+qBittorrent (4.3.1) is an efficient feature complete C++ bittorrent implementation.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- qBittorent version 4.3.1
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.radarr"
+       name="Radarr"
+       version="9.80.8.36"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+    <import addon="virtual.thoradia-mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Radarr: a fork of Sonarr to work with movies à la CouchPotato</summary>
+    <description>
+Radarr is a fork of Sonarr to work with movies à la CouchPotato.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Radarr bootstrap
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.rtorrent"
+       name="rTorrent"
+       version="9.80.8.11"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>rTorrent: quick and efficient BitTorrent client</summary>
+    <description>
+rTorrent (0.9.8) is a quick and efficient BitTorrent client.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- rTorrent version 0.9.8
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.rutorrent"
+       name="ruTorrent"
+       version="9.80.8.12"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+    <import addon="service.rtorrent" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>ruTorrent: web front-end for rTorrent</summary>
+    <description>
+ruTorrent (3.10) is a web front-end for rtorrent designed to emulate the look and feel of µTorrent web user interface.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- ruTorrent version 3.10
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.sabnzbd"
+       name="SABnzbd"
+       version="9.80.8.43"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+    <import addon="service.locale" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>SABnzbd: free and easy binary newsreader</summary>
+    <description>
+SABnzbd (3.1.1) is a program to download binary files from Usenet servers.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- SABnzbd version 3.1.1
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.sonarr"
+       name="Sonarr"
+       version="9.80.8.41"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+    <import addon="virtual.thoradia-mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Sonarr: a PVR for Usenet and BitTorrent users</summary>
+    <description>
+Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Sonarr bootstrap
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.thoradia-vpn"
+       name="Thoradia VPN Network Interface"
+       version="9.80.8.4"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thoradia VPN Network Interface: a virtual private network interface</summary>
+    <description>
+Thoradia VPN Network Interface (4) provides the thoradia-vpn network interface to which applications can bind. The system continues using unmodified network configuration whereas applications bound to the thoradia-vpn network interface connect to the VPN. Thoradia VPN Network Interface is compatible with VPN Manager for OpenVPN.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Thoradia VPN interface version 4
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.thoradia"
+       name="Thoradia Add-ons"
+       version="9.80.8.25"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.repository">
+    <datadir zip="true">https://raw.githubusercontent.com/thoradia/thoradia/9.80.8/9.80.8/RPi/arm/</datadir>
+    <info>https://raw.githubusercontent.com/thoradia/thoradia/9.80.8/9.80.8/RPi/arm/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/thoradia/thoradia/9.80.8/9.80.8/RPi/arm/addons.xml.md5</checksum>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thoradia Add-ons: add-on repository</summary>
+    <description>
+Thoradia Add-ons (25) add-on repository, provides aria2, Bazarr, btfs, CouchPotato, Deluge, FlexGet, Headphones, Jackett, Lidarr, Medusa, Mono, NZBGet, NZBHydra, qBittorent, Radarr, rTorrent, ruTorrent, SABnzbd, Sonarr, Thoradia VPN interface, Transmission and WebGrab+Plus.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Thoradia Add-ons version 25
+- Split add-on versions in corresponding git branches
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.transmission"
+       name="Transmission"
+       version="9.80.8.24"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Transmission: a fast, easy and free BitTorrent client</summary>
+    <description>
+Transmission (3.00) is a fast, easy and free BitTorrent client.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Transmission version 3.00
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.webgrabplus"
+       name="WebGrab+Plus"
+       version="9.80.8.115"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+    <import addon="tools.mono" version="0.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>WebGrab+Plus: a multi-site incremental xmltv epg grabber</summary>
+    <description>
+WebGrab+Plus (3.1) collects tv-program guide data from selected tvguide sites for your favourite channels.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- WebGrab+Plus version 3.1
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="service.zerotier-one"
+       name="ZeroTier One"
+       version="9.80.8.2"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>ZeroTier One: easily connect cloud, mobile, desktop, and data center resources anywhere</summary>
+    <description>
+ZeroTier One (1.4.6) easily connects cloud, mobile, desktop, and data center resources anywhere.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- zerotier-one: version 1.4.6
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="tools.btfs"
+       name="btfs"
+       version="9.80.8.6"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>btfs: bittorrent filesystem based on FUSE</summary>
+    <description>
+btfs (2.23) is a bittorrent filesystem based on FUSE.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- btfs version 2.23
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="tools.mono"
+       name="Mono"
+       version="9.80.8.120"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Mono: a cross platform, open source .NET framework</summary>
+    <description>
+Mono (6.12.0.107) is a software platform designed to allow developers to easily create cross platform applications part of the .NET Foundation.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- Mono version 6.12.0.107
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+<addon id="virtual.thoradia-mono"
+       name="Thoradia .Net and Mono Tools"
+       version="9.80.8.17"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thoradia .Net and Mono Tools: a bundle of tools required by .Net and Mono add-ons</summary>
+    <description>
+Thoradia .Net and Mono Tools (17) includes the ICU and MediaInfo shared libraries.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- icu version 68.1
+  libmediainfo-shared version 20.09
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
+</addons>
