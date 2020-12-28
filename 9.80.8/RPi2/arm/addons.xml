@@ -290,6 +290,34 @@ Keep it legal and carry on
     </assets>
   </extension>
 </addon>
+<addon id="service.qbittorrent"
+       name="qBittorrent"
+       version="9.80.8.35"
+       provider-name="thoradia">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>qBittorrent: efficient feature complete C++ bittorrent implementation</summary>
+    <description>
+qBittorrent (4.3.2) is an efficient feature complete C++ bittorrent implementation.
+    </description>
+    <disclaimer>
+Keep it legal and carry on
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+- qBittorent version 4.3.2
+    </news>
+    <assets>
+
+    </assets>
+  </extension>
+</addon>
 <addon id="service.radarr"
        name="Radarr"
        version="9.80.8.36"
